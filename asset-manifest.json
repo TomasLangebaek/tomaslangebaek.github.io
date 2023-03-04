@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b6b3b4e.css",
+    "main.js": "/static/js/main.6f6ab727.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/video1.MP4": "/static/media/video1.786d1b9c5fd0d062a5d7.MP4",
+    "static/media/c4.jpg": "/static/media/c4.e2fdcd922d4caa86c5a3.jpg",
+    "static/media/c3.jpg": "/static/media/c3.5854fb0565bf8dec453d.jpg",
+    "static/media/c1.jpg": "/static/media/c1.2ff530b598a8bffb5118.jpg",
+    "static/media/Pozos_Azules_en_Villa_de_Leyva_Boyacá_Colombia.jpg": "/static/media/Pozos_Azules_en_Villa_de_Leyva_Boyacá_Colombia.1281a8fdf58cb9e2b1c8.jpg",
+    "static/media/c2.jpg": "/static/media/c2.9fb6b21858cba705d8db.jpg",
+    "static/media/n3.jpg": "/static/media/n3.a0a34c2e421c4dc4402f.jpg",
+    "static/media/caminata.jpg": "/static/media/caminata.d468de318cd0c257735f.jpg",
+    "static/media/img2.jpg": "/static/media/img2.1df511591d1cee033ad8.jpg",
+    "static/media/villa de leyva.jpg": "/static/media/villa de leyva.a868f2424293a9d7a4cc.jpg",
+    "static/media/img3.jpg": "/static/media/img3.fd5393f0121eeb035c00.jpg",
+    "static/media/img1.jpg": "/static/media/img1.4ff34db3b9587bf79a8f.jpg",
+    "static/media/n4.jpg": "/static/media/n4.81a800c068f37f327433.jpg",
+    "static/media/n2.jpg": "/static/media/n2.5aa031f4b68f9af9fe14.jpg",
+    "static/media/img4.jpg": "/static/media/img4.c59750752077d6d9cd74.jpg",
+    "static/media/n1.jpg": "/static/media/n1.07e2203b8a4753ed6bae.jpg",
+    "static/media/vinedo.jpg": "/static/media/vinedo.4a0cf41f3fbe578df358.jpg",
+    "index.html": "/index.html",
+    "main.3b6b3b4e.css.map": "/static/css/main.3b6b3b4e.css.map",
+    "main.6f6ab727.js.map": "/static/js/main.6f6ab727.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b6b3b4e.css",
+    "static/js/main.6f6ab727.js"
+  ]
+}
