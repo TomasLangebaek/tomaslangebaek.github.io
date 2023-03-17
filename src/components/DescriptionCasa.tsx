@@ -13,7 +13,7 @@ export const DescriptionCasa = (props: any) => {
     return (
         <>
             <Grid container spacing={2}>
-                <Grid xs={10} md={6} mdOffset={3}>
+                <Grid xs={10} md={6} mdOffset={2}>
                     <div style={{
                         display: "flex",
                         flexDirection: "column",

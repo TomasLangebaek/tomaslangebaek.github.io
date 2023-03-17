@@ -33,12 +33,20 @@ import {Reviews} from "./components/Reviews";
 import {Service} from "./components/Service";
 import {ImageAndText} from "./components/ImageAndText";
 import {DescriptionCasa} from "./components/DescriptionCasa";
+import {PricingSection} from "./components/PricingSection";
 
 const theme = createTheme({
     palette: {
         secondary: {
             main: '#E33E7F'
-        }
+        },
+    },
+    typography: {
+        "fontFamily": `"Montserrat", "Helvetica", "Arial", sans-serif`,
+        "fontSize": 14,
+        "fontWeightLight": 300,
+        "fontWeightRegular": 400,
+        "fontWeightMedium": 500
     }
 });
 
@@ -72,66 +80,66 @@ function App() {
                 <Grid xs={12}>
                     <Video/>
                 </Grid>
-                <Grid xs={12} md={12}>
+                <Grid xs={12} md={12} sx={{marginBottom: 6}}>
                     <SectionText title={"Hospedaje en la mejor ubicación de Boyacá, Colombia"} text={"Rodeado de naturaleza, tranquilidad y lugares turísticos"}/>
                 </Grid>
-                <Grid xs={12} md={6}>
+                <Grid xs={12} md={5} mdOffset={1}>
                     <PhotoCarousel items={photosInterior} duration={1500}/>
                 </Grid>
-                <Grid xs={12} md={6}>
-                    <SectionText title={"La casa"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}/>
+                <Grid xs={12} md={5}>
+                    <SectionText title={"La casa"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}/>
                 </Grid>
-                <Grid xs={12} md={6}>
+                <Grid xs={12} md={5} mdOffset={1}>
                     <DescriptionCasa/>
                 </Grid>
-                <Grid xs={12} md={6} mdOffset={0}>
+                <Grid xs={12} md={5} mdOffset={0}>
                     <PhotoCarousel items={photosCasa} duration={1000}/>
                 </Grid>
-                <Grid xs={12} md={12}>
+                <Grid xs={12} md={12} sx={{marginBottom: 6}}>
                     <SectionText title={"Servicios"} text={"La casa incluye los siguientes servicios:"}/>
                 </Grid>
                 <Grid xs={5} xsOffset={1} md={2} mdOffset={1}>
                     <Service nombre={"Wifi"} descripcion={"Servicio de WIFI"} icon={"wifi"}/>
                 </Grid>
                 <Grid xs={5} md={2}>
-                    <Service nombre={"Empleada"} descripcion={"De 8 am a 12m"} icon={"empleada"}/>
+                    <Service nombre={"Empleada"} descripcion={"De 8 am a 4pm"} icon={"empleada"}/>
                 </Grid>
                 <Grid xs={5} xsOffset={1} md={2} mdOffset={0}>
                     <Service nombre={"Televisión"} descripcion={"Servicio de DirectTV"} icon={"tv"}/>
                 </Grid>
-                <Grid xs={5} md={2}>
+                <Grid xs={5} md={2} sx={{marginBottom: 6}}>
                     <Service nombre={"Dog Friendly"} descripcion={"Sus perros son bienvenidos"} icon={"dog"}/>
                 </Grid>
                 <Grid xs={5} xsOffset={4} md={2} mdOffset={0}>
                     <Service nombre={"Ping Pong"} descripcion={"Tennis de Mesa"} icon={"ping pong"}/>
                 </Grid>
-                <Grid xs={12} md={6} mdOffset={0}>
+                <Grid xs={12} md={5} mdOffset={1}>
                     <PhotoCarousel items={photosNaturaleza} duration={1000}/>
                 </Grid>
-                <Grid xs={12} md={6}>
-                    <SectionText title={"Naturaleza"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}/>
+                <Grid xs={12} md={5}>
+                    <SectionText title={"Naturaleza"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}/>
                 </Grid>
 
-                <Grid xs={12} md={12}>
+                <Grid xs={12} md={12} sx={{marginBottom: 3}}>
                     <SectionText title={"Actividades"} text={"Para realizar en la finca y sus alrededores"}/>
                 </Grid>
-                <Grid xs={12} md={4}>
+                <Grid xs={12} md={4} mdOffset={2}>
                     <ImageAndText title={"Caminatas"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."} image={a1}/>
                 </Grid>
                 <Grid xs={12} md={4}>
                     <ImageAndText title={"Villa de Leyva"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."} image={a2}/>
                 </Grid>
-                <Grid xs={12} md={4}>
+                <Grid xs={12} md={4} mdOffset={2}>
                     <ImageAndText title={"Viñedo Umaña Dajud"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."} image={a4}/>
                 </Grid>
-                <Grid xs={12} md={4}>
-                    <ImageAndText title={"El olivar"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."} image={a1}/>
-                </Grid>
-                <Grid xs={12} md={4}>
+                <Grid xs={12} md={4} sx={{marginBottom: 4}}>
                     <ImageAndText title={"Gondava"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."} image={a1}/>
                 </Grid>
-                <Grid xs={12} md={4}>
-                    <ImageAndText title={"Pozos Azules"} alt="Pozos azules. Autor: Mario Carvajal " text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."} image={a3}/>
+                <Grid xs={12} md={12}>
+                    <SectionText title={"Precios"}/>
+                </Grid>
+                <Grid xs={12} md={12} sx={{marginBottom: 4}}>
+                    <PricingSection/>
                 </Grid>
                 <Grid xs={12} md={12}>
                     <SectionText title={"Reseñas"}/>
@@ -140,7 +148,9 @@ function App() {
                     <Reviews/>
                 </Grid>
             </Grid>
+            <div id='footer'>
             <Footer/>
+            </div>
             </ThemeProvider>
         </>
     );

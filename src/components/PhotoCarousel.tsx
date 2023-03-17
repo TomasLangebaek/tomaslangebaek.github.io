@@ -4,7 +4,7 @@ import Carousel from 'react-material-ui-carousel'
 export const PhotoCarousel = (props: {duration: number, items: string[]}) => {
 
     return (
-        <Carousel navButtonsAlwaysVisible={true} duration={props.duration} sx={{ margin: 7, marginRight: 5 }}>
+        <Carousel navButtonsAlwaysVisible={true} duration={props.duration} sx={{ margin: 1, marginRight: 0 }}>
             {
                 props.items.map( (item, i) => <Item key={i} image={item} /> )
             }

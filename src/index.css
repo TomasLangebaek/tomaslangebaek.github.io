@@ -42,7 +42,7 @@ Variables
 
 :root {
 
-  --clr-primary-5: hsl(205, 75%, 57%);
+  --clr-primary-5: hsla(51, 73%, 56%, 0.98);
 }
 /*
 ===============
@@ -183,7 +183,7 @@ main {
   border-radius: 50%;
   transform: translateY(25%);
   background: var(--clr-primary-5);
-  color: #ffe900;
+  color: #ffffff;
 }
 .service-icon {
   position: relative;
@@ -211,12 +211,6 @@ main {
 .author {
   margin-bottom: 0.25rem;
 }
-.job {
-  margin-bottom: 0.5rem;
-  text-transform: uppercase;
-  color: var(--clr-primary-5);
-  font-size: 0.85rem;
-}
 .info {
   margin-bottom: 0.75rem;
 }
@@ -231,17 +225,6 @@ main {
 .prev-btn:hover,
 .next-btn:hover {
   color: var(--clr-primary-5);
-}
-.random-btn {
-  margin-top: 0.5rem;
-  color: var(--clr-primary-5);
-  padding: 0.25rem 0.5rem;
-  text-transform: capitalize;
-  border-color: transparent;
-  cursor: pointer;
-}
-.random-btn:hover {
-  background: var(--clr-primary-5);
 }
 
 /* .icon {

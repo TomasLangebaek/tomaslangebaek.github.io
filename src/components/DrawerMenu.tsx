@@ -35,7 +35,7 @@ export const DrawerMenu = () => {
             <List>
                 {navItems.map((item) => (
                     <ListItem key={item} disablePadding>
-                        <ListItemButton sx={{ textAlign: 'center' }}>
+                        <ListItemButton sx={{ textAlign: 'center' }} href='#footer'>
                             <ListItemText primary={item} />
                         </ListItemButton>
                     </ListItem>
@@ -67,9 +67,11 @@ export const DrawerMenu = () => {
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                         {navItems.map((item) => (
+                            <a href="#footer">
                             <Button key={item} sx={{ color: '#fff' }}>
                                 {item}
                             </Button>
+                            </a>
                         ))}
                     </Box>
                 </Toolbar>

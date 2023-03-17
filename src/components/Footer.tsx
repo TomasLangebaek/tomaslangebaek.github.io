@@ -3,7 +3,8 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import {createTheme, ThemeProvider} from '@mui/material/styles';
+import {FaInstagram, FaFacebook, FaWhatsapp} from 'react-icons/fa';
 
 function Copyright() {
     return (
@@ -23,11 +24,33 @@ const theme = createTheme();
 export default function Footer() {
     return (
         <ThemeProvider theme={theme}>
-            <CssBaseline />
+            <CssBaseline/>
             {/* Footer */}
-            <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
+            <Box sx={{bgcolor: 'background.paper', p: 6}} component="footer">
                 <Typography variant="h4" align="center" gutterBottom>
                     Contáctanos
+                </Typography>
+                <Typography
+                    variant="subtitle1"
+                    align="center"
+                    color="black"
+                    component="p"
+                >
+                    <Link href="#" variant="subtitle1" color="#000000"  sx={{
+                        marginRight: '1rem',
+                    }}>
+                        <FaInstagram size={50}/>
+                    </Link>
+                    <Link href="#" variant="subtitle1" color="#000000" sx={{
+                        marginRight: '1rem',
+                    }}>
+                        <FaFacebook size={50}/>
+                    </Link>
+                    <Link href="#" variant="subtitle1" color="#000000" sx={{
+                        marginRight: '1rem',
+                    }}>
+                        <FaWhatsapp size={50}/>
+                    </Link>
                 </Typography>
                 <Typography
                     variant="subtitle1"
@@ -53,7 +76,7 @@ export default function Footer() {
                 >
                     WhatsApp: +57 999 999 9999
                 </Typography>
-                <Copyright />
+                <Copyright/>
             </Box>
             {/* End footer */}
         </ThemeProvider>

@@ -17,8 +17,7 @@ export const SectionText = (props: any) => {
                     justifyContent: "space-evenly",
                     alignItems: "center",
                     marginLeft: "5%",
-                    marginRight: "2%",
-                    marginTop: "5%"
+                    marginRight: "2%"
                 }}>
                     <h2>
                         <Typography variant="h2">{props.title}</Typography>
