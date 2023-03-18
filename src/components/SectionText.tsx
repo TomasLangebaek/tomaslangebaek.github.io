@@ -1,10 +1,5 @@
 import React from 'react';
-import Carousel from 'react-material-ui-carousel'
-import {Paper, Typography} from '@mui/material'
-import img1 from '../assets/fotosInterior/img1.jpg'
-import img2 from '../assets/fotosInterior/img2.jpg'
-import img3 from '../assets/fotosInterior/img3.jpg'
-import img4 from '../assets/fotosInterior/img4.jpg'
+import {Typography} from '@mui/material'
 
 export const SectionText = (props: any) => {
 

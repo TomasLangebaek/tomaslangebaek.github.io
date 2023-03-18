@@ -5,14 +5,13 @@ import { Paper, Typography } from '@mui/material';
 
 interface Person {
     name: string;
-    job: string;
     image: string;
     text: string;
 }
 
 export const Reviews = () => {
     const [index, setIndex] = useState<number>(0);
-    const { name, job, image, text }: Person = people[index];
+    const { name, image, text }: Person = people[index];
 
     const checkNumber = (number: number): number => {
         if (number > people.length - 1) {
@@ -36,14 +35,6 @@ export const Reviews = () => {
             let newIndex = index - 1;
             return checkNumber(newIndex);
         });
-    };
-
-    const randomPerson = () => {
-        let randomNumber = Math.floor(Math.random() * people.length);
-        if (randomNumber === index) {
-            randomNumber = index + 1;
-        }
-        setIndex(checkNumber(randomNumber));
     };
 
     return (

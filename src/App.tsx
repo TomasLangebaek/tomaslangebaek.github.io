@@ -25,7 +25,6 @@ import n4 from './assets/fotosNaturaleza/n4.jpg'
 
 import a1 from '../src/assets/fotosActividades/caminata.jpg'
 import a2 from '../src/assets/fotosActividades/villa de leyva.jpg'
-import a3 from '../src/assets/fotosActividades/Pozos_Azules_en_Villa_de_Leyva_Boyacá_Colombia.jpg'
 import a4 from '../src/assets/fotosActividades/vinedo.jpg'
 
 

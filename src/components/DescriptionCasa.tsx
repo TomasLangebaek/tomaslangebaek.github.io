@@ -1,14 +1,8 @@
 import React from 'react';
-import Carousel from 'react-material-ui-carousel'
-import {List, ListItem, Paper, Typography} from '@mui/material'
-import img1 from '../assets/fotosInterior/img1.jpg'
-import img2 from '../assets/fotosInterior/img2.jpg'
-import img3 from '../assets/fotosInterior/img3.jpg'
-import img4 from '../assets/fotosInterior/img4.jpg'
+import {List, Typography} from '@mui/material'
 import Grid from "@mui/material/Unstable_Grid2";
-import {Video} from "./Video";
 
-export const DescriptionCasa = (props: any) => {
+export const DescriptionCasa = () => {
 
     return (
         <>

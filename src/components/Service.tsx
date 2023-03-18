@@ -8,11 +8,11 @@ export const Service = (props: any) => {
         <article className='review'>
             <div className='service-container'>
                 <span className='service-icon'>
-          {props.icon == "wifi" && (<FaWifi size={60} />)}
-          {props.icon == "empleada" && (<FaUser size={60} />)}
-          {props.icon == "tv" && (<FaTv size={60} />)}
-          {props.icon == "dog" && (<FaDog size={60} />)}
-          {props.icon == "ping pong" && (<FaTableTennis size={60} />)}
+          {props.icon === "wifi" && (<FaWifi size={60} />)}
+          {props.icon === "empleada" && (<FaUser size={60} />)}
+          {props.icon === "tv" && (<FaTv size={60} />)}
+          {props.icon === "dog" && (<FaDog size={60} />)}
+          {props.icon === "ping pong" && (<FaTableTennis size={60} />)}
         </span>
             </div>
             <Typography variant="h5">{props.nombre}</Typography>
