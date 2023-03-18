@@ -33,6 +33,7 @@ import {Service} from "./components/Service";
 import {ImageAndText} from "./components/ImageAndText";
 import {DescriptionCasa} from "./components/DescriptionCasa";
 import {PricingSection} from "./components/PricingSection";
+import {Map} from "./components/Map";
 
 const theme = createTheme({
     palette: {
@@ -45,7 +46,16 @@ const theme = createTheme({
         "fontSize": 14,
         "fontWeightLight": 300,
         "fontWeightRegular": 400,
-        "fontWeightMedium": 500
+        "fontWeightMedium": 500,
+        h2: {
+            "fontFamily": `"Oswald", "Montserrat", "Helvetica", "Arial", sans-serif`,
+        },
+        h3: {
+            "fontFamily": `"Oswald", "Montserrat","Helvetica", "Arial", sans-serif`,
+        },
+        h4: {
+            "fontFamily": `"Oswald", "Montserrat","Helvetica", "Arial", sans-serif`,
+        },
     }
 });
 
@@ -75,8 +85,9 @@ function App() {
         <>
             <ThemeProvider theme={theme}>
             <DrawerMenu/>
+                <div style={{ paddingRight: 8 }}>
             <Grid container spacing={2}>
-                <Grid xs={12}>
+                <Grid xs={12} md={12}>
                     <Video/>
                 </Grid>
                 <Grid xs={12} md={12} sx={{marginBottom: 6}}>
@@ -113,16 +124,21 @@ function App() {
                     <Service nombre={"Ping Pong"} descripcion={"Tennis de Mesa"} icon={"ping pong"}/>
                 </Grid>
                 <Grid xs={12} md={5} mdOffset={1}>
+                    <SectionText title={"Ubicación"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}/>
+                </Grid>
+                <Grid xs={12} md={5} sx={{marginBottom: 6}}>
+                    <Map/>
+                </Grid>
+                <Grid xs={12} md={5} mdOffset={1}>
                     <PhotoCarousel items={photosNaturaleza} duration={1000}/>
                 </Grid>
                 <Grid xs={12} md={5}>
                     <SectionText title={"Naturaleza"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}/>
                 </Grid>
-
                 <Grid xs={12} md={12} sx={{marginBottom: 3}}>
                     <SectionText title={"Actividades"} text={"Para realizar en la finca y sus alrededores"}/>
                 </Grid>
-                <Grid xs={12} md={4} mdOffset={2}>
+                <Grid xs={12} md={4}  mdOffset={2}>
                     <ImageAndText title={"Caminatas"} text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."} image={a1}/>
                 </Grid>
                 <Grid xs={12} md={4}>
@@ -147,6 +163,7 @@ function App() {
                     <Reviews/>
                 </Grid>
             </Grid>
+                </div>
             <div id='footer'>
             <Footer/>
             </div>

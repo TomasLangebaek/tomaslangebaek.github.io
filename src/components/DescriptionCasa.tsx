@@ -14,9 +14,9 @@ export const DescriptionCasa = () => {
                         justifyContent: "space-evenly",
                         alignItems: "flex-start",
                     }}>
-                        <Typography variant="h4">Características:</Typography>
+                        <Typography variant="h3">Características:</Typography>
                         <br/>
-                        <br/>
+                        
                         <List sx={{ listStyleType: 'disc', pl: 4 }}>
                             <li><Typography variant="h6">4 habitaciones, 3 con baño propio</Typography></li>
                             <li><Typography variant="h6">8 Camas</Typography></li>

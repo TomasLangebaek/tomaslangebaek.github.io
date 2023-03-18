@@ -12,8 +12,9 @@ export const ImageAndText = (props: any) => {
                     justifyContent: "space-evenly",
                     alignItems: "flex-start",
                     marginTop: "5%",
+                    marginLeft: "2.2%",
                 }}>
-                    <img src={props.image} alt='imageGallery' style={{ float: "left", width:  "96%", height: "200px",  objectFit: "cover", marginBottom: 25 }}/>
+                    <img src={props.image} alt='imageGallery' style={{ float: "left", width:  "100%", height: "200px",  objectFit: "cover", marginBottom: 25 }}/>
                     <h2>
                         <Typography variant="h4" sx={{ marginBottom: 2 }}>{props.title}</Typography>
                     </h2>
