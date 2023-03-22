@@ -7,7 +7,7 @@ export const DescriptionCasa = () => {
     return (
         <>
             <Grid container spacing={2}>
-                <Grid xs={10} md={6} mdOffset={2}>
+                <Grid xs={10} md={8} mdOffset={2}>
                     <div style={{
                         display: "flex",
                         flexDirection: "column",
@@ -18,14 +18,15 @@ export const DescriptionCasa = () => {
                         <br/>
                         
                         <List sx={{ listStyleType: 'disc', pl: 4 }}>
-                            <li><Typography variant="h6">4 habitaciones, 3 con baño propio</Typography></li>
-                            <li><Typography variant="h6">8 Camas</Typography></li>
-                            <li><Typography variant="h6">Capacidad para 9 personas</Typography></li>
-                            <li><Typography variant="h6">3 baños</Typography></li>
-                            <li><Typography variant="h6">160 m2 ???</Typography></li>
+                            <li><Typography variant="h6">250 m2</Typography></li>
+                            <li><Typography variant="h6">3 habitaciones con baño privado</Typography></li>
+                            <li><Typography variant="h6">Capacidad para 7 personas</Typography></li>
                             <li><Typography variant="h6">Cocina totalmente equipada</Typography></li>
-                            <li><Typography variant="h6">Sala</Typography></li>
+                            <li><Typography variant="h6">Sala comedor</Typography></li>
                             <li><Typography variant="h6">Estudio</Typography></li>
+                            <li><Typography variant="h6">Patio Interior</Typography></li>
+                            <li><Typography variant="h6">Altillo con TV</Typography></li>
+                            <li><Typography variant="h6">Jardines, Huerta</Typography></li>
                         </List>
                     </div>
                 </Grid>

@@ -13,9 +13,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import Link from "@mui/material/Link";
+import logo from "../assets/logos/LB_01.png";
 
 const drawerWidth = 240;
-const navItems = ['La Casa', 'Servicios', 'Actividades', 'Naturaleza', 'Ubicación', 'Contacto'];
+const navItems = ['La Casa', 'Cabañas', 'Ubicación', 'Actividades', 'Precios', 'Contacto'];
 
 
 export const DrawerMenu = () => {
@@ -29,7 +31,7 @@ export const DrawerMenu = () => {
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
             <Typography variant="h6" sx={{ my: 2 }}>
-                MUI
+                <img src={logo} alt='imageGallery' style={{ width: "220px"}}/>
             </Typography>
             <Divider />
             <List>
@@ -63,15 +65,20 @@ export const DrawerMenu = () => {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                        Finca La Buganvilia
+                        <img src={logo} alt='imageGallery' style={{ width: "350px"}}/>
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                         {navItems.map((item) => (
-                            <a href="#footer">
-                            <Button key={item} sx={{ color: '#fff' }}>
-                                {item}
+                                <Link href={`#${item}`} style={{ textDecoration: 'none' }}>
+                            <Button key={item} sx={{ color: '#671707' }}>
+                                <Typography
+                                    variant="h6"
+                                    component="div"
+                                >
+                                    {item}
+                                </Typography>
                             </Button>
-                            </a>
+                                </Link>
                         ))}
                     </Box>
                 </Toolbar>

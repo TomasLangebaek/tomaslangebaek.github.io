@@ -15,6 +15,6 @@ export const PhotoCarousel = (props: {duration: number, items: string[]}) => {
 function Item(props: any)
 {
     return (
-            <img src={props.image} alt='imageGallery' style={{ maxWidth: "100%", height: "auto" }}/>
+            <img src={props.image} alt='imageGallery' style={{ width:  "100%", height: "350px",  objectFit: "cover", }}/>
     )
 }
