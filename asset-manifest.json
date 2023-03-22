@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.24bf9e11.css",
-    "main.js": "/static/js/main.e5094b99.js",
+    "main.js": "/static/js/main.3fc2b8d3.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/video2.MP4": "/static/media/video2.96d03139861251923beb.MP4",
     "static/media/caminata.jpg": "/static/media/caminata.d468de318cd0c257735f.jpg",
@@ -45,11 +45,11 @@
     "static/media/Market_Deco.ttf": "/static/media/Market_Deco.81315f1a8b740b5efce6.ttf",
     "index.html": "/index.html",
     "main.24bf9e11.css.map": "/static/css/main.24bf9e11.css.map",
-    "main.e5094b99.js.map": "/static/js/main.e5094b99.js.map",
+    "main.3fc2b8d3.js.map": "/static/js/main.3fc2b8d3.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24bf9e11.css",
-    "static/js/main.e5094b99.js"
+    "static/js/main.3fc2b8d3.js"
   ]
 }
