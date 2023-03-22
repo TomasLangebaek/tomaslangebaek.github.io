@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.24bf9e11.css",
-    "main.js": "/static/js/main.3fc2b8d3.js",
+    "main.js": "/static/js/main.978546f8.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/video2.MP4": "/static/media/video2.96d03139861251923beb.MP4",
+    "static/media/video2.MP4": "/static/media/video2.9f35dc546a15b8cefbee.MP4",
     "static/media/caminata.jpg": "/static/media/caminata.d468de318cd0c257735f.jpg",
     "static/media/villa de leyva.png": "/static/media/villa de leyva.f2f98c8b59e69c4aaa91.png",
     "static/media/raquira.png": "/static/media/raquira.42a499af086ddbd210ae.png",
@@ -45,11 +45,11 @@
     "static/media/Market_Deco.ttf": "/static/media/Market_Deco.81315f1a8b740b5efce6.ttf",
     "index.html": "/index.html",
     "main.24bf9e11.css.map": "/static/css/main.24bf9e11.css.map",
-    "main.3fc2b8d3.js.map": "/static/js/main.3fc2b8d3.js.map",
+    "main.978546f8.js.map": "/static/js/main.978546f8.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24bf9e11.css",
-    "static/js/main.3fc2b8d3.js"
+    "static/js/main.978546f8.js"
   ]
 }
