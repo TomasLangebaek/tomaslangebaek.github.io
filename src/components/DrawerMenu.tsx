@@ -31,7 +31,7 @@ export const DrawerMenu = () => {
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
             <Typography variant="h6" sx={{ my: 2 }}>
-                <img src={logo} alt='imageGallery' style={{ width: "220px"}}/>
+                <img src={logo} alt='logo' style={{ width: "220px"}}/>
             </Typography>
             <Divider />
             <List>
@@ -65,7 +65,7 @@ export const DrawerMenu = () => {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                        <img src={logo} alt='imageGallery' style={{ width: "350px"}}/>
+                        <img src={logo} alt='logo' style={{ width: "250px"}}/>
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                         {navItems.map((item) => (

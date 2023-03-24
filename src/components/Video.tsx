@@ -6,7 +6,7 @@ import {Box} from "@mui/material";
 export const Video = () => {
     return (
     <Box sx={{
-        marginLeft: { xs: 0.7, sm: 0 },
+        marginLeft: { xs: 0.7, sm: 0 }, display: { xs: 'none', sm: 'block' },
     }}>
         <video src={video} autoPlay loop muted>
         </video>

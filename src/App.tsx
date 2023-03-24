@@ -60,6 +60,9 @@ import {PricingSection} from "./components/PricingSection";
 import {Map} from "./components/Map";
 import Divider from "@mui/material/Divider";
 
+import logo from "./assets/logos/LB_03.png";
+import {Box} from "@mui/material";
+
 const theme = createTheme({
     palette: {
         secondary: {
@@ -143,6 +146,15 @@ function App() {
                 <Grid xs={12} md={12}>
                     <Video/>
                 </Grid>
+                <Grid xs={12} md={12}>
+                    <div style={{display: "flex", alignItems: "center", justifyContent: "space-evenly"}}>
+                        <Box sx={{
+                            display: { xs: 'block', sm: 'none' }
+                        }}>
+                            <img src={logo} alt='imageGallery' style={{ width: "400px"}}/>
+                        </Box>
+                    </div>
+                </Grid>
                 <Grid xs={12} md={12} sx={{marginBottom: 6}}>
                     <SectionText title={"Hospedaje en la mejor ubicación de Boyacá, Colombia"} text={"Rodeado de naturaleza, tranquilidad y lugares turísticos"}/>
                 </Grid>
@@ -151,7 +163,7 @@ function App() {
                     <PhotoCarousel items={photosInterior} duration={1500}/>
                 </Grid>
                 <Grid xs={12} md={5}>
-                    <SectionText title={"La casa"} text={"La estadía en la casa de la finca es una experiencia relajante y alejada del bullicio de la ciudad. Disfrutarás de la tranquilidad de la naturaleza, del aire fresco y conectarte con la belleza natural que la rodea. Está totalmente equipada y a su alrededor se puede realizar en actividades al aire libre, como caminatas y paseos en bicicleta. "}/>
+                    <SectionText title={"La casa"} text={"La estadía en la casa de la finca es una experiencia relajante y alejada del bullicio de la ciudad. Disfrutarás de la tranquilidad de la naturaleza, del aire fresco y conectarte con la belleza natural que la rodea. Está totalmente equipada y a su alrededor se pueden realizar actividades al aire libre, como caminatas y paseos en bicicleta. "}/>
                 </Grid>
                 <Grid xs={12} md={5} mdOffset={1}>
                     <DescriptionCasa/>
@@ -166,7 +178,7 @@ function App() {
                     <Service nombre={"Wifi"} descripcion={"Servicio de WIFI"} icon={"wifi"}/>
                 </Grid>
                 <Grid xs={5} md={2}>
-                    <Service nombre={"Empleada"} descripcion={"De 8 am a 4pm"} icon={"empleada"}/>
+                    <Service nombre={"Servicio doméstico"} descripcion={"De 8 am a 4pm"} icon={"empleada"}/>
                 </Grid>
                 <Grid xs={5} xsOffset={1} md={2} mdOffset={0}>
                     <Service nombre={"Televisión"} descripcion={"Servicio de DirectTV"} icon={"tv"}/>
@@ -183,7 +195,7 @@ function App() {
                     <PhotoCarousel items={photosCabañas1} duration={1500}/>
                 </Grid>
                 <Grid xs={12} md={5}>
-                    <SectionText title={"Cabañas -En Construcción"} text={"Si estás buscando una experiencia auténtica de campo, nuestras cabañas son el lugar perfecto para ti en medio de la naturaleza. Están diseñadas para proporcionar una experiencia de campo auténtica, sin sacrificar las comodidades modernas. Tienen todo lo que necesitas para disfrutar de una estadía cómoda con baño y una cocina totalmente equipada. Mientras estés aquí, podrás disfrutar de la belleza natural del campo y participar en actividades emocionantes como caminatas y senderismo en las montañas cercanas. "}/>
+                    <SectionText title={"Cabañas -En Construcción"} text={"Si estás buscando una experiencia en un entorno natural, nuestras cabañas son el lugar perfecto para ti. Están diseñadas para proporcionar una experiencia de campo auténtica, sin sacrificar las comodidades modernas. Tienen todo lo que necesitas para disfrutar de una estadía cómoda con baño y una cocina totalmente equipada. Mientras estés aquí, podrás disfrutar de la belleza del paisaje y participar en actividades emocionantes como caminatas y senderismo en las montañas cercanas. "}/>
                 </Grid>
                 <Grid xs={12} md={5} mdOffset={1}>
                     <DescriptionCabanas/>
@@ -220,14 +232,14 @@ function App() {
                     <ImageAndText title={"Ver estrellas"} text={"Sáchica es una zona desértica, lo que permite tener un cielo estrellado  totalmente despejado la mayor parte del tiempo.\n."} image={a5}/>
                 </Grid>
                 <Grid xs={12} md={4}>
-                    <ImageAndText title={"Villa de Leyva"} text={"La Buganvilia está ubicada 15 minutos de Villa de Leyva, un pintoresco pueblo colonial. Es uno de los destinos turísticos más populares del país."} image={a2}/>
+                    <ImageAndText title={"Villa de Leyva"} text={"La Buganvilia está ubicada a 15 minutos en carro de Villa de Leyva, un pintoresco pueblo colonial. Es uno de los destinos turísticos más populares del país."} image={a2}/>
                 </Grid>
                 <Grid xs={12} md={4} mdOffset={2}>
                     <ImageAndText title={"Viñedo Umaña Dajud"} text={"Justo al lado del lugar se encuentra el viñedo Umaña-Dajud. Aquí se ofrece una amplia variedad de planes para realizar en torno al vino.."} image={a4}/>
                 </Grid>
                 <Grid xs={12} md={4} sx={{marginBottom: 4}}>
                     <ImageAndText title={"Ráquira"} text={"\n" +
-                        "Ráquira es un encantador pueblo ubicado a media hora de La Buganvilia. Conocido por sus hermosas artesanías y coloridos edificios, es un lugar popular entre los turistas que buscan llevarse a casa recuerdos únicos y auténticos."} image={a3}/>
+                        "Ráquira es un encantador pueblo ubicado a media hora en carro de La Buganvilia. Conocido por sus hermosas artesanías y coloridos edificios, es un lugar popular entre los turistas que buscan llevarse a casa recuerdos únicos y auténticos."} image={a3}/>
                 </Grid>
                 <Divider sx={{ bgcolor: "#671707", width:'80%', margin: "auto", marginBottom: 6, marginTop: 4, borderBottomWidth: 2}} />
                 <div id='Precios'></div>

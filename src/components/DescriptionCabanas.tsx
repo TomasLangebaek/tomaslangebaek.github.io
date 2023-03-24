@@ -18,9 +18,8 @@ export const DescriptionCabanas = () => {
                         <br/>
                         
                         <List sx={{ listStyleType: 'disc', pl: 4 }}>
-                            <li><Typography variant="h6">20 m2</Typography></li>
-                            <li><Typography variant="h6">Baño privado</Typography></li>
                             <li><Typography variant="h6">Capacidad para 2 personas</Typography></li>
+                            <li><Typography variant="h6">Baño privado</Typography></li>
                             <li><Typography variant="h6">1 Cama queen</Typography></li>
                             <li><Typography variant="h6">Cocina totalmente equipada</Typography></li>
                             <li><Typography variant="h6">Deck Amplio</Typography></li>
