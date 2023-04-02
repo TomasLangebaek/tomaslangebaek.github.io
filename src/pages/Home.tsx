@@ -64,6 +64,8 @@ import n4 from "../assets/fotosNaturaleza/n4.jpg";
 import n5 from "../assets/fotosNaturaleza/n5.jpg";
 import n6 from "../assets/fotosNaturaleza/n6.jpg";
 import n7 from "../assets/fotosNaturaleza/n7.jpg";
+import cerro from "../assets/fotosActividades/cerro.jpg";
+import cerro2 from "../assets/fotosActividades/cerro2.jpg";
 import Button from "@mui/material/Button";
 
 import {GiHummingbird} from 'react-icons/gi'
@@ -225,10 +227,10 @@ export const Home = () => {
                 <SectionText title={""} text={"Esta localizada en la Provincia del Alto Ricaurte que incluye los municipios de Sachica (conocida como la Jerusalen de Colombia por la representación de la Semana Santa y con grandes atrscciines como el Gondava y el Parque de la Avestruces), Villa De Leiva (Pueblo Patrimonio con gran atractivo arquitectonico), Raquira (famoso pueblo patrimonio,  pueblo de alfareros y ceramistas y monasterio de la Calendaria)."}/>
             </Grid>
             <Grid xs={12} md={5}>
-                    <Photo image={i1}/>
+                    <Photo image={cerro}/>
             </Grid>
             <Grid xs={12} md={5} mdOffset={1}>
-                <Photo image={i1}/>
+                <Photo image={cerro2}/>
             </Grid>
             <Grid xs={12} md={5}>
                 <SectionText title={""} text={"Otros municipios cercanos son Sutamarchan (famoso por su comida Boyacense y deliciosa longaniza y la celebración de la gran tomatina el primer puente de junio ) Tinjaca (Clima único, pueblo de olleros y artesanias en Tagua)  Chiquiza (entrada al Santuario Flora y Fauna de Iguaque),  Santa Sofia (con atractivos como el Monasteria del Santo Ecce Homo y el hermoso sitio natural del Paso del Angel) y Gachantiva (famoso por sus hernosas cascadas)."}/>
