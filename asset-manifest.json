@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.f0edc124.css",
-    "main.js": "/static/js/main.f0869969.js",
+    "main.js": "/static/js/main.63150848.js",
     "static/js/988.a5119c65.chunk.js": "/static/js/988.a5119c65.chunk.js",
     "static/media/FotoJet (13).jpg": "/static/media/FotoJet (13).b2abd4bd04bd2b1c5c1f.jpg",
     "static/media/FotoJet (14).jpg": "/static/media/FotoJet (14).e024f0f57809e23cbf8a.jpg",
     "static/media/video2.MP4": "/static/media/video2.9f35dc546a15b8cefbee.MP4",
+    "static/media/cerro.jpg": "/static/media/cerro.0dd75cf804c492c56823.jpg",
     "static/media/FotoJet (4).jpg": "/static/media/FotoJet (4).8bbb4a7405cce6391860.jpg",
     "static/media/cb3.jpg": "/static/media/cb3.8e3d45f66ea9c21874f7.jpg",
     "static/media/cb1.jpg": "/static/media/cb1.8e0ecaed2e7555d4bd6d.jpg",
+    "static/media/cerro2.jpg": "/static/media/cerro2.66d584783756eb519f5a.jpg",
     "static/media/caminata.jpg": "/static/media/caminata.d468de318cd0c257735f.jpg",
     "static/media/FotoJet (17).jpg": "/static/media/FotoJet (17).2aa57ab7b7be5fa2aa73.jpg",
     "static/media/FotoJet (9).jpg": "/static/media/FotoJet (9).9a520e0cca0c9b65e390.jpg",
@@ -70,11 +72,11 @@
     "static/media/c2_300.webp": "/static/media/c2_300.b20f75e4d49f65dcf938.webp",
     "index.html": "/index.html",
     "main.f0edc124.css.map": "/static/css/main.f0edc124.css.map",
-    "main.f0869969.js.map": "/static/js/main.f0869969.js.map",
+    "main.63150848.js.map": "/static/js/main.63150848.js.map",
     "988.a5119c65.chunk.js.map": "/static/js/988.a5119c65.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0edc124.css",
-    "static/js/main.f0869969.js"
+    "static/js/main.63150848.js"
   ]
 }
