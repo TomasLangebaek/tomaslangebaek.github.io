@@ -18,6 +18,7 @@ export const DescriptionCabanas = () => {
                         <br/>
                         
                         <List sx={{ listStyleType: 'disc', pl: 4 }}>
+                            <li><Typography variant="h6">Wifi</Typography></li>
                             <li><Typography variant="h6">Capacidad para 2 personas</Typography></li>
                             <li><Typography variant="h6">Baño privado</Typography></li>
                             <li><Typography variant="h6">1 Cama queen</Typography></li>

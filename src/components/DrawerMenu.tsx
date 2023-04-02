@@ -31,15 +31,17 @@ export const DrawerMenu = () => {
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
             <Typography variant="h6" sx={{ my: 2 }}>
-                <img src={logo} alt='logo' style={{ width: "220px"}}/>
+                <a href="/"><img src={logo} alt='logo' style={{ width: "220px"}}/></a>
             </Typography>
             <Divider />
             <List>
                 {navItems.map((item) => (
                     <ListItem key={item} disablePadding>
-                        <ListItemButton sx={{ textAlign: 'center' }} href='#footer'>
+                        <Link href={`/#${item}`} style={{ textDecoration: 'none' }}>
+                        <ListItemButton sx={{ textAlign: 'center' }}>
                             <ListItemText primary={item} />
                         </ListItemButton>
+                        </Link>
                     </ListItem>
                 ))}
             </List>
@@ -65,11 +67,11 @@ export const DrawerMenu = () => {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                        <img src={logo} alt='logo' style={{ width: "250px"}}/>
+                        <a href="/"><img src={logo} alt='logo' style={{ width: "250px"}}/></a>
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                         {navItems.map((item) => (
-                                <Link href={`#${item}`} style={{ textDecoration: 'none' }}>
+                                <Link href={`/#${item}`} style={{ textDecoration: 'none' }}>
                             <Button key={item} sx={{ color: '#671707' }}>
                                 <Typography
                                     variant="h6"
