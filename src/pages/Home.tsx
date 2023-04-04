@@ -218,13 +218,13 @@ export const Home = () => {
             <Divider sx={{ bgcolor: "#671707", width:'80%', margin: "auto", marginBottom: 6, marginTop: 4, borderBottomWidth: 2}} />
             <div id='Ubicación'/>
             <Grid xs={12} md={5} mdOffset={1}>
-                <SectionText title={"Ubicación"} text={"Sáchica es un municipio ubicado en el departamento de Boyacá, a 15 minutos en carro de Villa de Leyva. Se encuentra a una altitud de 2.260 metros sobre el nivel del mar, y su clima es templado y seco. El municipio de Sáchica está rodeado de hermosas montañas y valles, lo que lo convierte en un lugar ideal para disfrutar de la naturaleza y realizar actividades al aire libre. Se encuentra a 10 kilómetros al sur de Villa de Leyva y a 143 kilómetros al norte de Bogotá.."}/>
+                <SectionText title={"Ubicación"} text={"Sáchica es un municipio ubicado en el departamento de Boyacá, a 15 minutos en carro de Villa de Leyva. Se encuentra a una altitud de 2.260 metros sobre el nivel del mar, y su clima es templado y seco. El municipio de Sáchica está rodeado de hermosas montañas y valles, lo que lo convierte en un lugar ideal para disfrutar de la naturaleza y realizar actividades al aire libre. Se encuentra a 10 kilómetros al sur de Villa de Leyva y a 143 kilómetros al norte de Bogotá."}/>
             </Grid>
             <Grid xs={12} md={5} sx={{marginBottom: 6}}>
                 <Map/>
             </Grid>
             <Grid xs={12} md={5} mdOffset={1}>
-                <SectionText title={""} text={"Esta localizada en la Provincia del Alto Ricaurte que incluye los municipios de Sachica (conocida como la Jerusalen de Colombia por la representación de la Semana Santa y con grandes atrscciines como el Gondava y el Parque de la Avestruces), Villa De Leiva (Pueblo Patrimonio con gran atractivo arquitectonico), Raquira (famoso pueblo patrimonio,  pueblo de alfareros y ceramistas y monasterio de la Calendaria)."}/>
+                <SectionText title={""} text={"Esta localizada en la Provincia del Alto Ricaurte, que incluye los municipios de Sachica (conocida como la Jerusalén de Colombia por la representación de la Semana Santa y con grandes atracciónes como el parque temático Gondava y el Parque de la Avestruces), Villa De Leyva (pueblo patrimonio con gran atractivo arquitectónico), Ráquira (famoso pueblo patrimonio de alfareros y ceramistas con el monasterio de la Calendaria)."}/>
             </Grid>
             <Grid xs={12} md={5}>
                     <Photo image={cerro}/>
@@ -233,7 +233,7 @@ export const Home = () => {
                 <Photo image={cerro2}/>
             </Grid>
             <Grid xs={12} md={5}>
-                <SectionText title={""} text={"Otros municipios cercanos son Sutamarchan (famoso por su comida Boyacense y deliciosa longaniza y la celebración de la gran tomatina el primer puente de junio ) Tinjaca (Clima único, pueblo de olleros y artesanias en Tagua)  Chiquiza (entrada al Santuario Flora y Fauna de Iguaque),  Santa Sofia (con atractivos como el Monasteria del Santo Ecce Homo y el hermoso sitio natural del Paso del Angel) y Gachantiva (famoso por sus hernosas cascadas)."}/>
+                <SectionText title={""} text={"Otros municipios cercanos son Sutamarchán (famoso por su comida Boyacense, deliciosa longaniza y la celebración de la gran tomatina el primer puente de junio) Tinjáca (tiene un clima único. Pueblo de olleros y artesanías en Tagua), Chiquiza (entrada al Santuario Flora y Fauna de Iguaque),  Santa Sofia (con atractivos como el Monasteria del Santo Ecce Homo y el hermoso sitio natural del Paso del Angel) y Gachantivá (famoso por sus hernosas cascadas)."}/>
             </Grid>
 
             <Divider sx={{ bgcolor: "#671707", width:'80%', margin: "auto", marginBottom: 6, marginTop: 4, borderBottomWidth: 2}} />
