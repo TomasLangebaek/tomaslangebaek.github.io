@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f0edc124.css",
-    "main.js": "/static/js/main.63150848.js",
+    "main.js": "/static/js/main.acae3cc0.js",
     "static/js/988.a5119c65.chunk.js": "/static/js/988.a5119c65.chunk.js",
     "static/media/FotoJet (13).jpg": "/static/media/FotoJet (13).b2abd4bd04bd2b1c5c1f.jpg",
     "static/media/FotoJet (14).jpg": "/static/media/FotoJet (14).e024f0f57809e23cbf8a.jpg",
@@ -72,11 +72,11 @@
     "static/media/c2_300.webp": "/static/media/c2_300.b20f75e4d49f65dcf938.webp",
     "index.html": "/index.html",
     "main.f0edc124.css.map": "/static/css/main.f0edc124.css.map",
-    "main.63150848.js.map": "/static/js/main.63150848.js.map",
+    "main.acae3cc0.js.map": "/static/js/main.acae3cc0.js.map",
     "988.a5119c65.chunk.js.map": "/static/js/988.a5119c65.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0edc124.css",
-    "static/js/main.63150848.js"
+    "static/js/main.acae3cc0.js"
   ]
 }
