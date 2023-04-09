@@ -233,7 +233,7 @@ export const Home = () => {
                 <Photo image={cerro2}/>
             </Grid>
             <Grid xs={12} md={5}>
-                <SectionText title={""} text={"Otros municipios cercanos son Sutamarchán (famoso por su comida Boyacense, deliciosa longaniza y la celebración de la gran tomatina el primer puente de junio) Tinjáca (tiene un clima único. Pueblo de olleros y artesanías en Tagua), Chiquiza (entrada al Santuario Flora y Fauna de Iguaque),  Santa Sofia (con atractivos como el Monasteria del Santo Ecce Homo y el hermoso sitio natural del Paso del Angel) y Gachantivá (famoso por sus hernosas cascadas)."}/>
+                <SectionText title={""} text={"Otros municipios cercanos son Sutamarchán (famoso por su comida Boyacense, deliciosa longaniza y la celebración de la gran tomatina el primer puente de junio) Tinjáca (tiene un clima único. Pueblo de olleros y artesanías en Tagua), Chiquiza (entrada al Santuario Flora y Fauna de Iguaque),  Santa Sofia (con atractivos como el Monasteria del Santo Ecce Homo y el hermoso sitio natural del Paso del Angel) y Gachantivá (famoso por sus hermosas cascadas)."}/>
             </Grid>
 
             <Divider sx={{ bgcolor: "#671707", width:'80%', margin: "auto", marginBottom: 6, marginTop: 4, borderBottomWidth: 2}} />
@@ -242,7 +242,7 @@ export const Home = () => {
                 <PhotoCarousel items={photosNaturaleza} duration={1000}/>
             </Grid>
             <Grid xs={12} md={5}>
-                <SectionText title={"Naturaleza"} text={"La finca tiene un campo amplio donde se pueden avistar múltiples especies de pájaros que habitan la flora de los alrededores. Existen senderos en los cuáles se pueden realizar caminatas y disfrutar del aire libre y la tranquilidad del lugar.."}/>
+                <SectionText title={"Naturaleza"} text={"La finca tiene un campo amplio donde se pueden avistar múltiples especies de aves que habitan la región. Existen senderos en los cuáles se pueden realizar caminatas y disfrutar del aire libre y la tranquilidad del lugar.."}/>
             </Grid>
             <Divider sx={{ bgcolor: "#671707", width:'80%', margin: "auto", marginBottom: 6, marginTop: 4, borderBottomWidth: 2}} />
             <div id='Actividades'></div>
@@ -250,10 +250,10 @@ export const Home = () => {
                 <SectionText title={"Actividades"} text={"Para realizar en la finca y sus alrededores"}/>
             </Grid>
             <Grid xs={12} md={4}  mdOffset={2}>
-                <ImageAndText title={"Caminatas"} text={"Hay senderos en la finca donde se puede realizar caminatas. Además, es posible aventurarse y explorar senderos cercanos y realizar senderismo los cerros de alrededor con toda tranquilidad."} image={a1}/>
+                <ImageAndText title={"Caminatas"} text={"Hay senderos en la finca donde se pueden realizar caminatas. Además, es posible aventurarse y explorar senderos cercanos y realizar senderismo en los cerros de alrededor con toda tranquilidad."} image={a1}/>
             </Grid>
             <Grid xs={12} md={4}>
-                <ImageAndText title={"Montar Bicicleta"} text={"El terreno y clima son ideales para montar en bicicleta. Puedes llevar la tuya bicicleta y realizar paseos dentro de la finca y por la zona."} image={a6}/>
+                <ImageAndText title={"Montar Bicicleta"} text={"El terreno y clima son ideales para paseos en bicicleta."} image={a6}/>
                 <div style={{
                     display: "flex",
                     justifyContent: "center",
@@ -263,7 +263,7 @@ export const Home = () => {
                 </div>
             </Grid>
             <Grid xs={12} md={4} mdOffset={2}>
-                <ImageAndText title={"Ver estrellas"} text={"Sáchica es una zona desértica, lo que permite tener un cielo estrellado  totalmente despejado la mayor parte del tiempo.\n."} image={a5}/>
+                <ImageAndText title={"Ver estrellas"} text={"Sáchica es una zona desértica, lo que permite tener un cielo despejado la mayoría de las noches y observar las estrellas con facilidad."} image={a5}/>
             </Grid>
             <Grid xs={12} md={4}>
                 <ImageAndText title={"Avistamiento de Aves"} text={"Durante los últimos años, la finca La Buganvilia ha tenido un proceso de restauración ecológica convirtiéndola en un área de acogida para diferentes especies de aves."} image={n3}/>

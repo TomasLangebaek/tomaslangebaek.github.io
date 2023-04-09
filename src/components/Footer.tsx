@@ -34,12 +34,12 @@ export default function Footer() {
                     color="black"
                     component="p"
                 >
-                    <Link href="https://wa.me/573157659580" variant="subtitle1" color="#000000"  sx={{
+                    <Link href="https://www.instagram.com/labuganviliasachica/" target="_blank" rel="noopener" variant="subtitle1" color="#000000"  sx={{
                         marginRight: '2rem',
                     }}>
                         <FaInstagram size={50}/>
                     </Link>
-                    <Link href="https://wa.me/573157659580" variant="subtitle1" color="#000000" sx={{
+                    <Link href="https://www.facebook.com/profile.php?id=100091454829327" target="_blank" rel="noopener" variant="subtitle1" color="#000000" sx={{
                         marginRight: '2rem',
                     }}>
                         <FaFacebook size={50}/>

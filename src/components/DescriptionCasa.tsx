@@ -27,6 +27,7 @@ export const DescriptionCasa = () => {
                             <li><Typography variant="h6">Patio Interior</Typography></li>
                             <li><Typography variant="h6">Altillo con TV</Typography></li>
                             <li><Typography variant="h6">Jardines, Huerta</Typography></li>
+                            <li><Typography variant="h6">Wifi</Typography></li>
                         </List>
                     </div>
                 </Grid>
