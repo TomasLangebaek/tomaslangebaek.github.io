@@ -35,17 +35,17 @@ import i13 from "../assets/fotosInterior/i13.jpg";
 import i14 from "../assets/fotosInterior/i14.jpg";
 import i15 from "../assets/fotosInterior/i15.jpg";
 import c1 from "../assets/fotosCasa/c1.jpg";
-import c1_480 from "../assets/fotosCasa/c1_480.webp";
-import c1_768 from "../assets/fotosCasa/c1_480.webp";
-import c1_1024 from "../assets/fotosCasa/c1_480.webp";
+import c1_520 from "../assets/fotosCasa/c1_520.webp";
+import c1_768 from "../assets/fotosCasa/c1_768.webp";
+import c1_1024 from "../assets/fotosCasa/c1_1024.webp";
 import c2 from "../assets/fotosCasa/c2.jpg";
-import c2_480 from "../assets/fotosCasa/c2_480.webp";
-import c2_768 from "../assets/fotosCasa/c2_480.webp";
-import c2_1024 from "../assets/fotosCasa/c2_480.webp";
+import c2_520 from "../assets/fotosCasa/c2_520.webp";
+import c2_768 from "../assets/fotosCasa/c2_768.webp";
+import c2_1024 from "../assets/fotosCasa/c2_1024.webp";
 import c3 from "../assets/fotosCasa/c3.jpg";
-import c3_480 from "../assets/fotosCasa/c3_480.webp";
-import c3_768 from "../assets/fotosCasa/c3_480.webp";
-import c3_1024 from "../assets/fotosCasa/c3_480.webp";
+import c3_520 from "../assets/fotosCasa/c3_520.webp";
+import c3_768 from "../assets/fotosCasa/c3_768.webp";
+import c3_1024 from "../assets/fotosCasa/c3_1024.webp";
 
 import cb1 from "../assets/fotosCabañas/cb1.jpg";
 import cb2 from "../assets/fotosCabañas/cb2.jpg";
@@ -98,15 +98,15 @@ const photosInterior = [
 
 const photosCasa = [
     {
-        srcSet: `${c1_480} 480w, ${c1_768} 768w, ${c1_1024} 1024w, ${c1} 1440w`,
+        srcSet: `${c1_520} 520w, ${c1_768} 768w, ${c1_1024} 1024w, ${c1} 1440w`,
         alt: "casa vista aerea"
     },
     {
-        srcSet: `${c2_480} 480w, ${c2_768} 768w, ${c2_1024} 1024w, ${c2} 1440w`,
+        srcSet: `${c2_520} 520w, ${c2_768} 768w, ${c2_1024} 1024w, ${c2} 1440w`,
         alt: "casa vista frente"
     },
     {
-        srcSet: `${c3_480} 480w, ${c3_768} 768w, ${c3_1024} 1024w, ${c3} 1440w`,
+        srcSet: `${c3_520} 520w, ${c3_768} 768w, ${c3_1024} 1024w, ${c3} 1440w`,
         alt: "casa vista diagonal"
     },
 ];
