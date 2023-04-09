@@ -15,7 +15,6 @@ import {ImageAndText} from "../components/ImageAndText";
 import a1 from "../assets/fotosActividades/caminata.jpg";
 import a6 from "../assets/fotosActividades/bicicleta.jpg";
 import a5 from "../assets/fotosActividades/estrellas.jpg";
-import a2 from "../assets/fotosActividades/villa de leyva.png";
 import {PricingSection} from "../components/PricingSection";
 import {Reviews} from "../components/Reviews";
 import Footer from "../components/Footer";
@@ -36,11 +35,17 @@ import i13 from "../assets/fotosInterior/i13.jpg";
 import i14 from "../assets/fotosInterior/i14.jpg";
 import i15 from "../assets/fotosInterior/i15.jpg";
 import c1 from "../assets/fotosCasa/c1.jpg";
-import c1_300 from "../assets/fotosCasa/c1_300.webp";
+import c1_480 from "../assets/fotosCasa/c1_480.webp";
+import c1_768 from "../assets/fotosCasa/c1_480.webp";
+import c1_1024 from "../assets/fotosCasa/c1_480.webp";
 import c2 from "../assets/fotosCasa/c2.jpg";
-import c2_300 from "../assets/fotosCasa/c2_300.webp";
+import c2_480 from "../assets/fotosCasa/c2_480.webp";
+import c2_768 from "../assets/fotosCasa/c2_480.webp";
+import c2_1024 from "../assets/fotosCasa/c2_480.webp";
 import c3 from "../assets/fotosCasa/c3.jpg";
-import c3_300 from "../assets/fotosCasa/c3_300.webp";
+import c3_480 from "../assets/fotosCasa/c3_480.webp";
+import c3_768 from "../assets/fotosCasa/c3_480.webp";
+import c3_1024 from "../assets/fotosCasa/c3_480.webp";
 
 import cb1 from "../assets/fotosCabañas/cb1.jpg";
 import cb2 from "../assets/fotosCabañas/cb2.jpg";
@@ -92,23 +97,17 @@ const photosInterior = [
 ]
 
 const photosCasa = [
-    c1,
-    c2,
-    c3
-]
-
-const items = [
     {
-        srcSet: `${c1_300} 300w, ${c1} 800w`,
-        alt: "casa"
+        srcSet: `${c1_480} 480w, ${c1_768} 768w, ${c1_1024} 1024w, ${c1} 1440w`,
+        alt: "casa vista aerea"
     },
     {
-        srcSet: `${c2_300} 300w, ${c2} 800w`,
-        alt: "casa"
+        srcSet: `${c2_480} 480w, ${c2_768} 768w, ${c2_1024} 1024w, ${c2} 1440w`,
+        alt: "casa vista frente"
     },
     {
-        srcSet: `${c3_300} 500w, ${c3} 800w`,
-        alt: "casa"
+        srcSet: `${c3_480} 480w, ${c3_768} 768w, ${c3_1024} 1024w, ${c3} 1440w`,
+        alt: "casa vista diagonal"
     },
 ];
 
@@ -181,7 +180,7 @@ export const Home = () => {
                 <DescriptionCasa/>
             </Grid>
             <Grid xs={12} md={5} mdOffset={0}>
-                <PhotoCarousel items={photosCasa} duration={3000}/>
+                <PhotoCarouselV2 items={photosCasa} duration={3000}/>
             </Grid>
             <Grid xs={12} md={12} sx={{marginBottom: 1}}>
                 <SectionText title={"Servicios de la casa"}/>
