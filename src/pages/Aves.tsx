@@ -3,61 +3,159 @@ import Grid from "@mui/material/Unstable_Grid2";
 import {Box} from "@mui/material";
 import logo from "../assets/logos/LB_03.png";
 import {SectionText} from "../components/SectionText";
-import {PhotoCarousel} from "../components/PhotoCarousel";
 import Divider from "@mui/material/Divider";
 import Footer from "../components/Footer";
 import React from "react";
 
-import aa1 from "../assets/avesHabituales/FotoJet (1).jpg";
-import aa2 from "../assets/avesHabituales/FotoJet (3).jpg";
-import aa3 from "../assets/avesHabituales/FotoJet (4).jpg";
-import aa4 from "../assets/avesHabituales/FotoJet (5).jpg";
-import aa5 from "../assets/avesHabituales/FotoJet (14).jpg";
-import aa6 from "../assets/avesHabituales/FotoJet (15).jpg";
+import aa1_520 from "../assets/avesHabituales/FotoJet(1)_520.webp";
+import aa1_768 from "../assets/avesHabituales/FotoJet(1)_768.webp";
+import aa1_1024 from "../assets/avesHabituales/FotoJet(1)_1024.webp";
+import aa1_1440 from "../assets/avesHabituales/FotoJet(1)_1440.webp";
+import aa2_520 from "../assets/avesHabituales/FotoJet(3)_520.webp";
+import aa2_768 from "../assets/avesHabituales/FotoJet(3)_768.webp";
+import aa2_1024 from "../assets/avesHabituales/FotoJet(3)_1024.webp";
+import aa2_1440 from "../assets/avesHabituales/FotoJet(3)_1440.webp";
+import aa3_520 from "../assets/avesHabituales/FotoJet(4)_520.webp";
+import aa3_768 from "../assets/avesHabituales/FotoJet(4)_768.webp";
+import aa3_1024 from "../assets/avesHabituales/FotoJet(4)_1024.webp";
+import aa3_1440 from "../assets/avesHabituales/FotoJet(4)_1440.webp";
+import aa4_520 from "../assets/avesHabituales/FotoJet(5)_520.webp";
+import aa4_768 from "../assets/avesHabituales/FotoJet(5)_768.webp";
+import aa4_1024 from "../assets/avesHabituales/FotoJet(5)_1024.webp";
+import aa4_1440 from "../assets/avesHabituales/FotoJet(5)_1440.webp";
+import aa5_520 from "../assets/avesHabituales/FotoJet(14)_520.webp";
+import aa5_768 from "../assets/avesHabituales/FotoJet(14)_768.webp";
+import aa5_1024 from "../assets/avesHabituales/FotoJet(14)_1024.webp";
+import aa5_1440 from "../assets/avesHabituales/FotoJet(14)_1440.webp";
+import aa6_520 from "../assets/avesHabituales/FotoJet(15)_520.webp";
+import aa6_768 from "../assets/avesHabituales/FotoJet(15)_768.webp";
+import aa6_1024 from "../assets/avesHabituales/FotoJet(15)_1024.webp";
+import aa6_1440 from "../assets/avesHabituales/FotoJet(15)_1440.webp";
 
-import am1 from "../assets/avesMigratorias/FotoJet (2).jpg";
+import am1_520 from "../assets/avesMigratorias/FotoJet(2)_520.webp";
+import am1_768 from "../assets/avesMigratorias/FotoJet(2)_768.webp";
+import am1_1024 from "../assets/avesMigratorias/FotoJet(2)_1024.webp";
+import am1_1440 from "../assets/avesMigratorias/FotoJet(2)_1440.webp";
 
-import ae1 from "../assets/avesEsquivas/FotoJet (11).jpg";
-import ae2 from "../assets/avesEsquivas/FotoJet (17).jpg";
+import ae1_520 from "../assets/avesEsquivas/FotoJet(11)_520.webp";
+import ae1_768 from "../assets/avesEsquivas/FotoJet(11)_768.webp";
+import ae1_1024 from "../assets/avesEsquivas/FotoJet(11)_1024.webp";
+import ae1_1440 from "../assets/avesEsquivas/FotoJet(11)_1440.webp";
+import ae2_520 from "../assets/avesEsquivas/FotoJet(17)_520.webp";
+import ae2_768 from "../assets/avesEsquivas/FotoJet(17)_768.webp";
+import ae2_1024 from "../assets/avesEsquivas/FotoJet(17)_1024.webp";
+import ae2_1440 from "../assets/avesEsquivas/FotoJet(17)_1440.webp";
 
-import o1 from "../assets/avesOtras/FotoJet (6).jpg";
-import o2 from "../assets/avesOtras/FotoJet (7).jpg";
-import o3 from "../assets/avesOtras/FotoJet (8).jpg";
-import o4 from "../assets/avesOtras/FotoJet (9).jpg";
-import o5 from "../assets/avesOtras/FotoJet (10).jpg";
-import o6 from "../assets/avesOtras/FotoJet (12).jpg";
-import o7 from "../assets/avesOtras/FotoJet (13).jpg";
+import o1_520 from "../assets/avesOtras/FotoJet(6)_520.webp";
+import o1_768 from "../assets/avesOtras/FotoJet(6)_768.webp";
+import o1_1024 from "../assets/avesOtras/FotoJet(6)_1024.webp";
+import o1_1440 from "../assets/avesOtras/FotoJet(6)_1440.webp";
+import o2_520 from "../assets/avesOtras/FotoJet(7)_520.webp";
+import o2_768 from "../assets/avesOtras/FotoJet(7)_768.webp";
+import o2_1024 from "../assets/avesOtras/FotoJet(7)_1024.webp";
+import o2_1440 from "../assets/avesOtras/FotoJet(7)_1440.webp";
+import o3_520 from "../assets/avesOtras/FotoJet(8)_520.webp";
+import o3_768 from "../assets/avesOtras/FotoJet(8)_768.webp";
+import o3_1024 from "../assets/avesOtras/FotoJet(8)_1024.webp";
+import o3_1440 from "../assets/avesOtras/FotoJet(8)_1440.webp";
+import o4_520 from "../assets/avesOtras/FotoJet(9)_520.webp";
+import o4_768 from "../assets/avesOtras/FotoJet(9)_768.webp";
+import o4_1024 from "../assets/avesOtras/FotoJet(9)_1024.webp";
+import o4_1440 from "../assets/avesOtras/FotoJet(9)_1440.webp";
+import o5_520 from "../assets/avesOtras/FotoJet(10)_520.webp";
+import o5_768 from "../assets/avesOtras/FotoJet(10)_768.webp";
+import o5_1024 from "../assets/avesOtras/FotoJet(10)_1024.webp";
+import o5_1440 from "../assets/avesOtras/FotoJet(10)_1440.webp";
+import o6_520 from "../assets/avesOtras/FotoJet(12)_520.webp";
+import o6_768 from "../assets/avesOtras/FotoJet(12)_768.webp";
+import o6_1024 from "../assets/avesOtras/FotoJet(12)_1024.webp";
+import o6_1440 from "../assets/avesOtras/FotoJet(12)_1440.webp";
+import o7_520 from "../assets/avesOtras/FotoJet(13)_520.webp";
+import o7_768 from "../assets/avesOtras/FotoJet(13)_768.webp";
+import o7_1024 from "../assets/avesOtras/FotoJet(13)_1024.webp";
+import o7_1440 from "../assets/avesOtras/FotoJet(13)_1440.webp";
+import {PhotoCarouselV2} from "../components/PhotoCarouselV2";
+
 
 const avesHabituales1 = [
-    aa1,
-    aa2,
-    aa3,
-]
+    {
+        srcSet: `${aa1_520} 520w, ${aa1_768} 768w, ${aa1_1024} 1024w, ${aa1_1440} 1440w`,
+        alt: "aves habituales"
+    },
+    {
+        srcSet: `${aa2_520} 520w, ${aa2_768} 768w, ${aa2_1024} 1024w, ${aa2_1440} 1440w`,
+        alt: "aves habituales"
+    },
+    {
+        srcSet: `${aa3_520} 520w, ${aa3_768} 768w, ${aa3_1024} 1024w, ${aa3_1440} 1440w`,
+        alt: "aves habituales"
+    },
+];
 
 const avesHabituales2 = [
-    aa4,
-    aa5,
-    aa6,
-]
+    {
+        srcSet: `${aa4_520} 520w, ${aa4_768} 768w, ${aa4_1024} 1024w, ${aa4_1440} 1440w`,
+        alt: "aves habituales"
+    },
+    {
+        srcSet: `${aa5_520} 520w, ${aa5_768} 768w, ${aa5_1024} 1024w, ${aa5_1440} 1440w`,
+        alt: "aves habituales"
+    },
+    {
+        srcSet: `${aa6_520} 520w, ${aa6_768} 768w, ${aa6_1024} 1024w, ${aa6_1440} 1440w`,
+        alt: "aves habituales"
+    },
+];
 
 const avesEsquivas1 = [
-    ae1,
-    ae2,
-    o3,
-    o4
-]
+    {
+        srcSet: `${ae1_520} 520w, ${ae1_768} 768w, ${ae1_1024} 1024w, ${ae1_1440} 1440w`,
+        alt: "aves esquivas"
+    },
+    {
+        srcSet: `${ae2_520} 520w, ${ae2_768} 768w, ${ae2_1024} 1024w, ${ae2_1440} 1440w`,
+        alt: "aves esquivas"
+    },
+    {
+        srcSet: `${o3_520} 520w, ${o3_768} 768w, ${o3_1024} 1024w, ${o3_1440} 1440w`,
+        alt: "aves"
+    },
+    {
+        srcSet: `${o4_520} 520w, ${o4_768} 768w, ${o4_1024} 1024w, ${o4_1440} 1440w`,
+        alt: "aves"
+    },
+];
+
 
 const avesEsquivas2 = [
-    o1,
-    o2,
-    o7,
-]
+    {
+        srcSet: `${o1_520} 520w, ${o1_768} 768w, ${o1_1024} 1024w, ${o1_1440} 1440w`,
+        alt: "aves"
+    },
+    {
+        srcSet: `${o2_520} 520w, ${o2_768} 768w, ${o2_1024} 1024w, ${o2_1440} 1440w`,
+        alt: "aves"
+    },
+    {
+        srcSet: `${o7_520} 520w, ${o7_768} 768w, ${o7_1024} 1024w, ${o7_1440} 1440w`,
+        alt: "aves"
+    },
+];
 
 const avesMigratorias = [
-    am1,
-    o5,
-    o6,
-]
+    {
+        srcSet: `${am1_520} 520w, ${am1_768} 768w, ${am1_1024} 1024w, ${am1_1440} 1440w`,
+        alt: "aves migratorias"
+    },
+    {
+        srcSet: `${o5_520} 520w, ${o5_768} 768w, ${o5_1024} 1024w, ${o5_1440} 1440w`,
+        alt: "aves"
+    },
+    {
+        srcSet: `${o6_520} 520w, ${o6_768} 768w, ${o6_1024} 1024w, ${o6_1440} 1440w`,
+        alt: "aves"
+    },
+];
 
 export const Aves = () => {
 
@@ -89,10 +187,10 @@ export const Aves = () => {
                     "chulo común que presta un gran servicio en la naturaleza."}/>
             </Grid>
             <Grid xs={12} md={5} sx={{marginTop: 17}}>
-                <PhotoCarousel items={avesHabituales1} duration={1500}/>
+                <PhotoCarouselV2 items={avesHabituales1} duration={1500}/>
             </Grid>
                 <Grid xs={12} md={5} mdOffset={1} sx={{marginTop: 12}}>
-                    <PhotoCarousel items={avesHabituales2} duration={3000}/>
+                    <PhotoCarouselV2 items={avesHabituales2} duration={3000}/>
                 </Grid>
                 <Grid xs={12} md={5}>
                     <SectionText title={""} text={"Hay pequeños residentes habituales pero difíciles de identificar por su rapidez, sin embargo, el\n" +
@@ -112,7 +210,7 @@ export const Aves = () => {
                         "sulfurado)."}/>
                 </Grid>
                 <Grid xs={12} md={5}>
-                    <PhotoCarousel items={avesMigratorias} duration={1500}/>
+                    <PhotoCarouselV2 items={avesMigratorias} duration={1500}/>
                 </Grid>
             <Divider sx={{ bgcolor: "#671707", width:'80%', margin: "auto", marginBottom: 6, marginTop: 4, borderBottomWidth: 2}} />
                 <Grid xs={12} md={5} mdOffset={1}>
@@ -124,10 +222,10 @@ export const Aves = () => {
                         "el Falco Sparverius (Cernícalo)."}/>
                 </Grid>
                 <Grid xs={12} md={5} sx={{marginTop: 15}}>
-                    <PhotoCarousel items={avesEsquivas1} duration={3000}/>
+                    <PhotoCarouselV2 items={avesEsquivas1} duration={3000}/>
                 </Grid>
                 <Grid xs={12} md={5} mdOffset={1}>
-                    <PhotoCarousel items={avesEsquivas2} duration={1500}/>
+                    <PhotoCarouselV2 items={avesEsquivas2} duration={1500}/>
                 </Grid>
                 <Grid xs={12} md={5}>
                     <SectionText title={""} text={"Para facilitar su identificación pueden observar las fotos en nuestra galería. Si observan especies\n" +

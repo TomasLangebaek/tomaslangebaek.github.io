@@ -4,7 +4,6 @@ import {Video} from "../components/Video";
 import {Box} from "@mui/material";
 import logo from "../assets/logos/LB_03.png";
 import {SectionText} from "../components/SectionText";
-import {PhotoCarousel} from "../components/PhotoCarousel";
 import {DescriptionCasa} from "../components/DescriptionCasa";
 import {Service} from "../components/Service";
 import {useNavigate} from "react-router-dom";
@@ -12,28 +11,58 @@ import Divider from "@mui/material/Divider";
 import {DescriptionCabanas} from "../components/DescriptionCabanas";
 import {Map} from "../components/Map";
 import {ImageAndText} from "../components/ImageAndText";
-import a1 from "../assets/fotosActividades/caminata.jpg";
-import a6 from "../assets/fotosActividades/bicicleta.jpg";
-import a5 from "../assets/fotosActividades/estrellas.jpg";
+import a1 from "../assets/fotosActividades/caminata_768.webp";
+import a6 from "../assets/fotosActividades/bicicleta_520.webp";
+import a5 from "../assets/fotosActividades/estrellas_520.webp";
 import {PricingSection} from "../components/PricingSection";
 import {Reviews} from "../components/Reviews";
 import Footer from "../components/Footer";
 import React from "react";
 import i1 from "../assets/fotosInterior/i1.jpg";
+import i1_520 from "../assets/fotosInterior/i1_520.webp";
+import i1_768 from "../assets/fotosInterior/i1_768.webp";
 import i2 from "../assets/fotosInterior/i2.jpg";
+import i2_520 from "../assets/fotosInterior/i2_520.webp";
+import i2_768 from "../assets/fotosInterior/i2_768.webp";
 import i3 from "../assets/fotosInterior/i3.jpg";
+import i3_520 from "../assets/fotosInterior/i3_520.webp";
+import i3_768 from "../assets/fotosInterior/i3_768.webp";
 import i4 from "../assets/fotosInterior/i4.jpg";
+import i4_520 from "../assets/fotosInterior/i4_520.webp";
+import i4_768 from "../assets/fotosInterior/i4_768.webp";
 import i5 from "../assets/fotosInterior/i5.jpg";
+import i5_520 from "../assets/fotosInterior/i5_520.webp";
+import i5_768 from "../assets/fotosInterior/i5_768.webp";
 import i6 from "../assets/fotosInterior/i6.jpg";
+import i6_520 from "../assets/fotosInterior/i6_520.webp";
+import i6_768 from "../assets/fotosInterior/i6_768.webp";
 import i7 from "../assets/fotosInterior/i7.jpg";
+import i7_520 from "../assets/fotosInterior/i7_520.webp";
+import i7_768 from "../assets/fotosInterior/i7_768.webp";
 import i8 from "../assets/fotosInterior/i8.jpg";
+import i8_520 from "../assets/fotosInterior/i8_520.webp";
+import i8_768 from "../assets/fotosInterior/i8_768.webp";
 import i9 from "../assets/fotosInterior/i9.jpg";
+import i9_520 from "../assets/fotosInterior/i9_520.webp";
+import i9_768 from "../assets/fotosInterior/i9_768.webp";
 import i10 from "../assets/fotosInterior/i10.jpg";
+import i10_520 from "../assets/fotosInterior/i10_520.webp";
+import i10_768 from "../assets/fotosInterior/i10_768.webp";
 import i11 from "../assets/fotosInterior/i11.jpg";
+import i11_520 from "../assets/fotosInterior/i11_520.webp";
+import i11_768 from "../assets/fotosInterior/i11_768.webp";
 import i12 from "../assets/fotosInterior/i12.jpg";
+import i12_520 from "../assets/fotosInterior/i12_520.webp";
+import i12_768 from "../assets/fotosInterior/i12_768.webp";
+import i13_520 from "../assets/fotosInterior/i13_520.webp";
+import i13_768 from "../assets/fotosInterior/i13_768.webp";
 import i13 from "../assets/fotosInterior/i13.jpg";
 import i14 from "../assets/fotosInterior/i14.jpg";
+import i14_520 from "../assets/fotosInterior/i14_520.webp";
+import i14_768 from "../assets/fotosInterior/i14_768.webp";
 import i15 from "../assets/fotosInterior/i15.jpg";
+import i15_520 from "../assets/fotosInterior/i15_520.webp";
+import i15_768 from "../assets/fotosInterior/i15_768.webp";
 import c1 from "../assets/fotosCasa/c1.jpg";
 import c1_520 from "../assets/fotosCasa/c1_520.webp";
 import c1_768 from "../assets/fotosCasa/c1_768.webp";
@@ -47,28 +76,84 @@ import c3_520 from "../assets/fotosCasa/c3_520.webp";
 import c3_768 from "../assets/fotosCasa/c3_768.webp";
 import c3_1024 from "../assets/fotosCasa/c3_1024.webp";
 
-import cb1 from "../assets/fotosCabañas/cb1.jpg";
-import cb2 from "../assets/fotosCabañas/cb2.jpg";
-import cb3 from "../assets/fotosCabañas/cb3.jpg";
-import cb4 from "../assets/fotosCabañas/cb4.jpg";
-import cb5 from "../assets/fotosCabañas/cb5.jpg";
-import cb6 from "../assets/fotosCabañas/cb6.jpg";
-import cb7 from "../assets/fotosCabañas/cb7.jpg";
-import cb8 from "../assets/fotosCabañas/cb8.jpg";
-import cb9 from "../assets/fotosCabañas/cb9.jpg";
-import cb10 from "../assets/fotosCabañas/cb10.jpg";
-import cb11 from "../assets/fotosCabañas/cb11.jpg";
-import cb12 from "../assets/fotosCabañas/cb12.jpg";
-import cb13 from "../assets/fotosCabañas/cb13.jpg";
-import cb14 from "../assets/fotosCabañas/cb14.jpg";
+import cb1_520 from "../assets/fotosCabañas/cb1_520.webp";
+import cb1_768 from "../assets/fotosCabañas/cb1_768.webp";
+import cb1_1024 from "../assets/fotosCabañas/cb1_1024.webp";
+import cb1_1440 from "../assets/fotosCabañas/cb1_1440.webp";
+import cb2_520 from "../assets/fotosCabañas/cb2_520.webp";
+import cb2_768 from "../assets/fotosCabañas/cb2_768.webp";
+import cb2_1024 from "../assets/fotosCabañas/cb2_1024.webp";
+import cb2_1440 from "../assets/fotosCabañas/cb2_1440.webp";
+import cb3_520 from "../assets/fotosCabañas/cb3_520.webp";
+import cb3_768 from "../assets/fotosCabañas/cb3_768.webp";
+import cb3_1024 from "../assets/fotosCabañas/cb3_1024.webp";
+import cb3_1440 from "../assets/fotosCabañas/cb3_1440.webp";
+import cb4_520 from "../assets/fotosCabañas/cb4_520.webp";
+import cb4_768 from "../assets/fotosCabañas/cb4_768.webp";
+import cb4_1024 from "../assets/fotosCabañas/cb4_1024.webp";
+import cb4_1440 from "../assets/fotosCabañas/cb4_1440.webp";
+import cb5_520 from "../assets/fotosCabañas/cb5_520.webp";
+import cb5_768 from "../assets/fotosCabañas/cb5_768.webp";
+import cb5_1024 from "../assets/fotosCabañas/cb5_1024.webp";
+import cb5_1440 from "../assets/fotosCabañas/cb5_1440.webp";
+import cb6_520 from "../assets/fotosCabañas/cb6_520.webp";
+import cb6_768 from "../assets/fotosCabañas/cb6_768.webp";
+import cb6_1024 from "../assets/fotosCabañas/cb6_1024.webp";
+import cb6_1440 from "../assets/fotosCabañas/cb6_1440.webp";
+import cb7_520 from "../assets/fotosCabañas/cb7_520.webp";
+import cb7_768 from "../assets/fotosCabañas/cb7_768.webp";
+import cb7_1024 from "../assets/fotosCabañas/cb7_1024.webp";
+import cb7_1440 from "../assets/fotosCabañas/cb7_1440.webp";
+import cb8_520 from "../assets/fotosCabañas/cb8_520.webp";
+import cb8_768 from "../assets/fotosCabañas/cb8_768.webp";
+import cb8_1024 from "../assets/fotosCabañas/cb8_1024.webp";
+import cb8_1440 from "../assets/fotosCabañas/cb8_1440.webp";
+import cb9_520 from "../assets/fotosCabañas/cb9_520.webp";
+import cb9_768 from "../assets/fotosCabañas/cb9_768.webp";
+import cb9_1024 from "../assets/fotosCabañas/cb9_1024.webp";
+import cb9_1440 from "../assets/fotosCabañas/cb9_1440.webp";
+import cb10_520 from "../assets/fotosCabañas/cb10_520.webp";
+import cb10_768 from "../assets/fotosCabañas/cb10_768.webp";
+import cb10_1024 from "../assets/fotosCabañas/cb10_1024.webp";
+import cb10_1440 from "../assets/fotosCabañas/cb10_1440.webp";
+import cb11_520 from "../assets/fotosCabañas/cb11_520.webp";
+import cb11_768 from "../assets/fotosCabañas/cb11_768.webp";
+import cb11_1024 from "../assets/fotosCabañas/cb11_1024.webp";
+import cb11_1440 from "../assets/fotosCabañas/cb11_1440.webp";
+import cb12_520 from "../assets/fotosCabañas/cb12_520.webp";
+import cb12_768 from "../assets/fotosCabañas/cb12_768.webp";
+import cb12_1024 from "../assets/fotosCabañas/cb12_1024.webp";
+import cb12_1440 from "../assets/fotosCabañas/cb12_1440.webp";
+import cb13_520 from "../assets/fotosCabañas/cb13_520.webp";
+import cb13_768 from "../assets/fotosCabañas/cb13_768.webp";
+import cb13_1024 from "../assets/fotosCabañas/cb13_1024.webp";
+import cb13_1440 from "../assets/fotosCabañas/cb13_1440.webp";
+import cb14_520 from "../assets/fotosCabañas/cb14_520.webp";
+import cb14_768 from "../assets/fotosCabañas/cb14_768.webp";
+import cb14_1024 from "../assets/fotosCabañas/cb14_1024.webp";
+import cb14_1440 from "../assets/fotosCabañas/cb14_1440.webp";
 
-import n1 from "../assets/fotosNaturaleza/n1.jpg";
-import n2 from "../assets/fotosNaturaleza/n2.jpg";
-import n3 from "../assets/fotosNaturaleza/n3.jpg";
-import n4 from "../assets/fotosNaturaleza/n4.jpg";
-import n5 from "../assets/fotosNaturaleza/n5.jpg";
-import n6 from "../assets/fotosNaturaleza/n6.jpg";
-import n7 from "../assets/fotosNaturaleza/n7.jpg";
+import n1_520 from "../assets/fotosNaturaleza/n1_520.webp";
+import n1_768 from "../assets/fotosNaturaleza/n1_768.webp";
+import n1_1024 from "../assets/fotosNaturaleza/n1_1024.webp";
+import n2_520 from "../assets/fotosNaturaleza/n2_520.webp";
+import n2_768 from "../assets/fotosNaturaleza/n2_768.webp";
+import n2_1024 from "../assets/fotosNaturaleza/n2_1024.webp";
+import n3_520 from "../assets/fotosNaturaleza/n3_520.webp";
+import n3_768 from "../assets/fotosNaturaleza/n3_768.webp";
+import n3_1024 from "../assets/fotosNaturaleza/n3_1024.webp";
+import n4_520 from "../assets/fotosNaturaleza/n4_520.webp";
+import n4_768 from "../assets/fotosNaturaleza/n4_768.webp";
+import n4_1024 from "../assets/fotosNaturaleza/n4_1024.webp";
+import n5_520 from "../assets/fotosNaturaleza/n5_520.webp";
+import n5_768 from "../assets/fotosNaturaleza/n5_768.webp";
+import n5_1024 from "../assets/fotosNaturaleza/n5_1024.webp";
+import n6_520 from "../assets/fotosNaturaleza/n6_520.webp";
+import n6_768 from "../assets/fotosNaturaleza/n6_768.webp";
+import n6_1024 from "../assets/fotosNaturaleza/n6_1024.webp";
+import n7_520 from "../assets/fotosNaturaleza/n7_520.webp";
+import n7_768 from "../assets/fotosNaturaleza/n7_768.webp";
+import n7_1024 from "../assets/fotosNaturaleza/n7_1024.webp";
 import cerro from "../assets/fotosActividades/cerro.jpg";
 import cerro2 from "../assets/fotosActividades/cerro2.jpg";
 import Button from "@mui/material/Button";
@@ -78,23 +163,69 @@ import {MdOutlineDirectionsBike} from 'react-icons/md'
 import {Photo} from "../components/Photo";
 import {PhotoCarouselV2} from "../components/PhotoCarouselV2";
 
+
 const photosInterior = [
-    i1,
-    i2,
-    i3,
-    i4,
-    i5,
-    i6,
-    i7,
-    i8,
-    i9,
-    i10,
-    i11,
-    i12,
-    i13,
-    i14,
-    i15,
-]
+    {
+        srcSet: `${i1_520} 520w, ${i1_768} 768w, ${i1} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i2_520} 520w, ${i2_768} 768w, ${i2} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i3_520} 520w, ${i3_768} 768w, ${i3} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i4_520} 520w, ${i4_768} 768w, ${i4} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i5_520} 520w, ${i5_768} 768w, ${i5} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i6_520} 520w, ${i6_768} 768w, ${i6} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i7_520} 520w, ${i7_768} 768w, ${i7} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i8_520} 520w, ${i8_768} 768w, ${i8} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i9_520} 520w, ${i9_768} 768w, ${i9} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i10_520} 520w, ${i10_768} 768w, ${i10} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i11_520} 520w, ${i11_768} 768w, ${i11} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i12_520} 520w, ${i12_768} 768w, ${i12} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i13_520} 520w, ${i13_768} 768w, ${i13} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i14_520} 520w, ${i14_768} 768w, ${i14} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i15_520} 520w, ${i15_768} 768w, ${i15} 1024w`,
+        alt: "casa interior"
+    },
+];
 
 const photosCasa = [
     {
@@ -113,33 +244,95 @@ const photosCasa = [
 
 
 const photosCabañas1 = [
-    cb1,
-    cb2,
-    cb3,
-    cb4,
-    cb5,
-    cb6,
-    cb7
-]
+    {
+        srcSet: `${cb1_520} 520w, ${cb1_768} 768w, ${cb1_1024} 1024w, ${cb1_1440} 1440w`,
+        alt: "vista cabaña"
+    },
+    {
+        srcSet: `${cb2_520} 520w, ${cb2_768} 768w, ${cb2_1024} 1024w, ${cb2_1440} 1440w`,
+        alt: "vista cabaña"
+    },
+    {
+        srcSet: `${cb3_520} 520w, ${cb3_768} 768w, ${cb3_1024} 1024w, ${cb3_1440} 1440w`,
+        alt: "vista cabaña"
+    },
+    {
+        srcSet: `${cb4_520} 520w, ${cb4_768} 768w, ${cb4_1024} 1024w, ${cb4_1440} 1440w`,
+        alt: "vista cabaña"
+    },    {
+        srcSet: `${cb5_520} 520w, ${cb5_768} 768w, ${cb5_1024} 1024w, ${cb5_1440} 1440w`,
+        alt: "vista cabaña"
+    },    {
+        srcSet: `${cb6_520} 520w, ${cb6_768} 768w, ${cb6_1024} 1024w, ${cb6_1440} 1440w`,
+        alt: "vista cabaña"
+    },
+    {
+        srcSet: `${cb7_520} 520w, ${cb7_768} 768w, ${cb7_1024} 1024w, ${cb7_1440} 1440w`,
+        alt: "vista cabaña"
+    },
+
+];
 
 const photosCabañas2 = [
-    cb8,
-    cb9,
-    cb10,
-    cb11,
-    cb12,
-    cb13,
-    cb14
-]
+    {
+        srcSet: `${cb8_520} 520w, ${cb8_768} 768w, ${cb8_1024} 1024w, ${cb8_1440} 1440w`,
+        alt: "vista cabaña"
+    },
+    {
+        srcSet: `${cb9_520} 520w, ${cb9_768} 768w, ${cb9_1024} 1024w, ${cb9_1440} 1440w`,
+        alt: "vista cabaña"
+    },
+    {
+        srcSet: `${cb10_520} 520w, ${cb10_768} 768w, ${cb10_1024} 1024w, ${cb10_1440} 1440w`,
+        alt: "vista cabaña"
+    },
+    {
+        srcSet: `${cb11_520} 520w, ${cb11_768} 768w, ${cb11_1024} 1024w, ${cb11_1440} 1440w`,
+        alt: "vista cabaña"
+    },    {
+        srcSet: `${cb12_520} 520w, ${cb12_768} 768w, ${cb12_1024} 1024w, ${cb12_1440} 1440w`,
+        alt: "vista cabaña"
+    },    {
+        srcSet: `${cb13_520} 520w, ${cb13_768} 768w, ${cb13_1024} 1024w, ${cb13_1440} 1440w`,
+        alt: "vista cabaña"
+    },
+    {
+        srcSet: `${cb14_520} 520w, ${cb14_768} 768w, ${cb14_1024} 1024w, ${cb14_1440} 1440w`,
+        alt: "vista cabaña"
+    },
+
+];
 
 const photosNaturaleza = [
-    n1,
-    n2,
-    n4,
-    n5,
-    n6,
-    n7
-]
+    {
+        srcSet: `${n1_520} 520w, ${n1_768} 768w, ${n1_1024} 1024w`,
+        alt: "natualeza"
+    },
+    {
+        srcSet: `${n2_520} 520w, ${n2_768} 768w, ${n2_1024} 1024w`,
+        alt: "natualeza"
+    },
+    {
+        srcSet: `${n3_520} 520w, ${n3_768} 768w, ${n3_1024} 1024w`,
+        alt: "natualeza"
+    },
+    {
+        srcSet: `${n4_520} 520w, ${n4_768} 768w, ${n4_1024} 1024w`,
+        alt: "natualeza"
+    },
+    {
+        srcSet: `${n5_520} 520w, ${n5_768} 768w, ${n5_1024} 1024w`,
+        alt: "natualeza"
+    },
+    {
+        srcSet: `${n6_520} 520w, ${n6_768} 768w, ${n6_1024} 1024w`,
+        alt: "natualeza"
+    },
+    {
+        srcSet: `${n7_520} 520w, ${n7_768} 768w, ${n7_1024} 1024w`,
+        alt: "natualeza"
+    },
+];
 
 export const Home = () => {
 
@@ -171,7 +364,7 @@ export const Home = () => {
             </Grid>
             <div id='La Casa'></div>
             <Grid xs={12} md={5} mdOffset={1}>
-                <PhotoCarousel items={photosInterior} duration={1500}/>
+                <PhotoCarouselV2 items={photosInterior} duration={1500}/>
             </Grid>
             <Grid xs={12} md={5}>
                 <SectionText title={"La casa"} text={"La estadía en la casa de la finca es una experiencia relajante y alejada del bullicio de la ciudad. Disfrutarás de la tranquilidad de la naturaleza, del aire fresco y conectarte con la belleza natural que la rodea. Está totalmente equipada y a su alrededor se pueden realizar actividades al aire libre, como caminatas y paseos en bicicleta. "}/>
@@ -203,7 +396,7 @@ export const Home = () => {
             <Divider sx={{ bgcolor: "#671707", width:'80%', margin: "auto", marginBottom: 6, marginTop: 4, borderBottomWidth: 2}} />
             <div id='Cabañas'></div>
             <Grid xs={12} md={5} mdOffset={1}>
-                <PhotoCarousel items={photosCabañas1} duration={1500}/>
+                <PhotoCarouselV2 items={photosCabañas1} duration={1500}/>
             </Grid>
             <Grid xs={12} md={5}>
                 <SectionText title={"Cabañas"} text={"Si estás buscando una experiencia en un entorno natural, nuestras cabañas son el lugar perfecto para ti. Están diseñadas para proporcionar una experiencia de campo auténtica, sin sacrificar las comodidades modernas. Tienen todo lo que necesitas para disfrutar de una estadía cómoda con baño y una cocina totalmente equipada. Mientras estés aquí, podrás disfrutar de la belleza del paisaje y participar en actividades emocionantes como caminatas y senderismo en las montañas cercanas. "}/>
@@ -212,7 +405,7 @@ export const Home = () => {
                 <DescriptionCabanas/>
             </Grid>
             <Grid xs={12} md={5} mdOffset={0}>
-                <PhotoCarousel items={photosCabañas2} duration={3000}/>
+                <PhotoCarouselV2 items={photosCabañas2} duration={3000}/>
             </Grid>
             <Divider sx={{ bgcolor: "#671707", width:'80%', margin: "auto", marginBottom: 6, marginTop: 4, borderBottomWidth: 2}} />
             <div id='Ubicación'/>
@@ -238,7 +431,7 @@ export const Home = () => {
             <Divider sx={{ bgcolor: "#671707", width:'80%', margin: "auto", marginBottom: 6, marginTop: 4, borderBottomWidth: 2}} />
 
             <Grid xs={12} md={5} mdOffset={1}>
-                <PhotoCarousel items={photosNaturaleza} duration={1000}/>
+                <PhotoCarouselV2 items={photosNaturaleza} duration={1000}/>
             </Grid>
             <Grid xs={12} md={5}>
                 <SectionText title={"Naturaleza"} text={"La finca tiene un campo amplio donde se pueden avistar múltiples especies de aves que habitan la región. Existen senderos en los cuáles se pueden realizar caminatas y disfrutar del aire libre y la tranquilidad del lugar.."}/>
@@ -265,7 +458,7 @@ export const Home = () => {
                 <ImageAndText title={"Ver estrellas"} text={"Sáchica es una zona desértica, lo que permite tener un cielo despejado la mayoría de las noches y observar las estrellas con facilidad."} image={a5}/>
             </Grid>
             <Grid xs={12} md={4}>
-                <ImageAndText title={"Avistamiento de Aves"} text={"Durante los últimos años, la finca La Buganvilia ha tenido un proceso de restauración ecológica convirtiéndola en un área de acogida para diferentes especies de aves."} image={n3}/>
+                <ImageAndText title={"Avistamiento de Aves"} text={"Durante los últimos años, la finca La Buganvilia ha tenido un proceso de restauración ecológica convirtiéndola en un área de acogida para diferentes especies de aves."} image={`${n3_520} 520w, ${n3_768} 768w, ${n3_1024} 1024w`}/>
                 <div style={{
                     display: "flex",
                     justifyContent: "center",
