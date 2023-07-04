@@ -63,6 +63,12 @@ import i14_768 from "../assets/fotosInterior/i14_768.webp";
 import i15 from "../assets/fotosInterior/i15.jpg";
 import i15_520 from "../assets/fotosInterior/i15_520.webp";
 import i15_768 from "../assets/fotosInterior/i15_768.webp";
+import i16 from "../assets/fotosInterior/i16.jpg";
+import i16_520 from "../assets/fotosInterior/i16_520.webp";
+import i16_768 from "../assets/fotosInterior/i16_768.webp";
+import i17 from "../assets/fotosInterior/i17.jpg";
+import i17_520 from "../assets/fotosInterior/i17_520.webp";
+import i17_768 from "../assets/fotosInterior/i17_768.webp";
 import c1 from "../assets/fotosCasa/c1.jpg";
 import c1_520 from "../assets/fotosCasa/c1_520.webp";
 import c1_768 from "../assets/fotosCasa/c1_768.webp";
@@ -223,6 +229,14 @@ const photosInterior = [
     },
     {
         srcSet: `${i15_520} 520w, ${i15_768} 768w, ${i15} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i16_520} 520w, ${i16_768} 768w, ${i16} 1024w`,
+        alt: "casa interior"
+    },
+    {
+        srcSet: `${i17_520} 520w, ${i17_768} 768w, ${i17} 1024w`,
         alt: "casa interior"
     },
 ];
