@@ -127,7 +127,7 @@ export default function Footer() {
                     component="p"
                     fontSize={20}
                 >
-                    RNT: 901500477-3
+                    RNT: 171062
                 </Typography>
                 <Typography
                     variant="subtitle1"
