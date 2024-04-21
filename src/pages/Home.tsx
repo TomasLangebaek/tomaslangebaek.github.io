@@ -81,6 +81,13 @@ import c3 from "../assets/fotosCasa/c3.jpg";
 import c3_520 from "../assets/fotosCasa/c3_520.webp";
 import c3_768 from "../assets/fotosCasa/c3_768.webp";
 import c3_1024 from "../assets/fotosCasa/c3_1024.webp";
+import c4 from "../assets/fotosCasa/c4.jpeg"
+import c4_520 from "../assets/fotosCasa/c4_520.webp";
+import c4_768 from "../assets/fotosCasa/c4_768.webp";
+import c5 from "../assets/fotosCasa/c5.jpeg";
+import c5_520 from "../assets/fotosCasa/c5_520.webp";
+import c5_768 from "../assets/fotosCasa/c5_768.webp";
+import c5_1024 from "../assets/fotosCasa/c5_1024.webp";
 
 import cb1_520 from "../assets/fotosCabañas/cb1_520.webp";
 import cb1_768 from "../assets/fotosCabañas/cb1_768.webp";
@@ -138,6 +145,14 @@ import cb14_520 from "../assets/fotosCabañas/cb14_520.webp";
 import cb14_768 from "../assets/fotosCabañas/cb14_768.webp";
 import cb14_1024 from "../assets/fotosCabañas/cb14_1024.webp";
 import cb14_1440 from "../assets/fotosCabañas/cb14_1440.webp";
+import cb15_520 from "../assets/fotosCabañas/cb15_520.webp";
+import cb15_768 from "../assets/fotosCabañas/cb15_768.webp";
+import cb15_1024 from "../assets/fotosCabañas/cb15_1024.webp";
+import cb15 from "../assets/fotosCabañas/cb15.jpeg";
+import cb16_520 from "../assets/fotosCabañas/cb16_520.webp";
+import cb16_768 from "../assets/fotosCabañas/cb16_768.webp";
+import cb16_1024 from "../assets/fotosCabañas/cb16_1024.webp";
+import cb16 from "../assets/fotosCabañas/cb16.jpeg";
 
 import n1_520 from "../assets/fotosNaturaleza/n1_520.webp";
 import n1_768 from "../assets/fotosNaturaleza/n1_768.webp";
@@ -254,6 +269,14 @@ const photosCasa = [
         srcSet: `${c3_520} 520w, ${c3_768} 768w, ${c3_1024} 1024w, ${c3} 1440w`,
         alt: "casa vista diagonal"
     },
+    {
+        srcSet: `${c4_520} 520w, ${c4_768} 768w, ${c4} 1024w, ${c4} 1440w`,
+        alt: "casa vista aerea"
+    },
+    {
+        srcSet: `${c5_520} 520w, ${c5_768} 768w, ${c5_1024} 1024w, ${c5} 1440w`,
+        alt: "casa vista lejos"
+    },
 ];
 
 
@@ -278,6 +301,10 @@ const photosCabañas1 = [
         alt: "vista cabaña"
     },    {
         srcSet: `${cb6_520} 520w, ${cb6_768} 768w, ${cb6_1024} 1024w, ${cb6_1440} 1440w`,
+        alt: "vista cabaña"
+    },
+    {
+        srcSet: `${cb15_520} 520w, ${cb15_768} 768w, ${cb15_1024} 1024w, ${cb15} 1440w`,
         alt: "vista cabaña"
     },
     {
@@ -312,6 +339,10 @@ const photosCabañas2 = [
     },
     {
         srcSet: `${cb14_520} 520w, ${cb14_768} 768w, ${cb14_1024} 1024w, ${cb14_1440} 1440w`,
+        alt: "vista cabaña"
+    },
+    {
+        srcSet: `${cb16_520} 520w, ${cb16_768} 768w, ${cb16_1024} 1024w, ${cb16} 1440w`,
         alt: "vista cabaña"
     },
 
@@ -490,10 +521,10 @@ export const Home = () => {
                 <PricingSection/>
             </Grid>
             <Grid xs={12} md={12}>
-                {false && <SectionText title={"Reseñas"}/>}
+                <SectionText title={"Reseñas"}/>
             </Grid>
             <Grid xs={12} mdOffset={2} md={8}>
-                {false && <Reviews/>}
+                <Reviews/>
             </Grid>
         </Grid>
     </div>

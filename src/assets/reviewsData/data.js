@@ -1,39 +1,39 @@
+import profile_image from '../reviewsData/profile_image.png'
 const reviews = [
     {
         id: 1,
-        name: 'Susan Smith',
+        name: 'Stefano Sesana',
         job: 'web developer',
-        image:
-            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
+        image: profile_image,
         text:
-            "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+            "De corazón quería felicitarte, qué lugar tan hermoso el que tienen, las cabañas no solo son espectaculares si no que irradian una energía impresionante, es un sitio para desconectarse de los afanes de la vida y volver a ver las cosas con calma y paz! Todo fue excelente, en serio que no tengo un solo comentario negativo ni algo que no me haya gustado! Si tuviera que dar algo por mejorar sería la ubicación del letrero de la llegada que casi no lo vi estaba tal vez un poco muy metido en la zanja de pasto jajaja pero yo no es que tenga 10/10 en visión! Me voy a volver cliente frecuente y todo el que me pregunte por un sitio en esa zona tenlo por seguro que se los voy a recomendar sin pensarlo dos veces, en serio muchas felicitaciones!",
     },
     {
         id: 2,
-        name: 'anna johnson',
+        name: 'Claudia',
         job: 'web designer',
-        image:
-            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg',
+        image: profile_image,
         text:
-            'Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.',
+            'El lugar es bonito, es una casa antigua pero muy bien cuidada, Lina sin duda es de gran ayuda con la alimentación, es un muy buen plus, amable y atenta.',
     },
     {
         id: 3,
-        name: 'peter jones',
+        name: 'Carlos',
         job: 'intern',
-        image:
-            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
+        image: profile_image,
         text:
-            'Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.',
+            'Es una casa de campo en la que se van a sentir cómodos, y en un entorno privado. Es una casa de campo de familia, bo esperen una construcción moderna, es una casa tipo español comida y en donde se sentirán en su casa!. Luisa la propietaria y Patricia la señora que les ayudara con el oficio hacen un equipo espectacular! gracias por todo!\n' +
+            'La distancia al casco urbano de Villa de Leyva es como de 15 min en carro, por lo que deben tener esto en cuenta si el plan es de visitar el pueblo y regresar en la noche.\n' +
+            'Las camas son cómodas y las sabanas impecables!\n' +
+            'Si van en plan familiar esta mas que recomendado.',
     },
     {
         id: 4,
-        name: 'bill anderson',
+        name: 'Arnold',
         job: 'the boss',
-        image:
-            'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
+        image: profile_image,
         text:
-            'Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ',
+            'Una casa muy bonita, las personas muy serviciales, seguro volveré. ',
     },
 ];
 

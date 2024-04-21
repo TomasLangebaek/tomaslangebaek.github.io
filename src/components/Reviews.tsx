@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import people from '../assets/reviewsData/data';
 import { FaChevronLeft, FaChevronRight, FaStar } from 'react-icons/fa';
 import { Paper, Typography } from '@mui/material';
+import Grid from "@mui/material/Unstable_Grid2";
+import superhostimage from "../assets/reviewsData/superhost.jpeg";
 
 interface Person {
     name: string;
@@ -57,6 +59,10 @@ export const Reviews = () => {
                 </button>
             </div>
         </article>
+            <Paper sx={{width: "100%", padding: 5, overflow: "auto", textAlign: "center"}}>
+                <img src={superhostimage} alt='imageGallery'
+                     style={{width: "45%", marginTop: 30}}/>
+            </Paper>
         </Paper>
     );
 };
